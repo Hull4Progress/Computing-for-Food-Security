@@ -13,7 +13,10 @@ repeatedly in coming months.
 We are very interested in comments and feedback.  Please submit comments
 as new "Issues".
 
-A (draft) course overview, including major topics to be covered,
+A high-level course description may be found
+[here](Short-Course-Desciption.md).
+
+A (draft) detailed course overview, including major topics to be covered,
 source materials, and programming exercises may be found
-[here](Course-Overview.md).
+[here](Detailed-Course-Overview.md).
 
