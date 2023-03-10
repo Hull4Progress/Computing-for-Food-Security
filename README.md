@@ -15,5 +15,5 @@ as new "Issues".
 
 A (draft) course overview, including major topics to be covered,
 source materials, and programming exercises may be found
-here.
+[here](Course-Overview.md).
 
