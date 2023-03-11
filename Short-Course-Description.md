@@ -11,10 +11,7 @@ nutritional characteristics; soil types and quality; anticipated
 population growth; and the potential impacts of climate change – all
 with a global scope and much of it with fine granularity.
 
-This course provides a broad introduction to the area of food
-(in)security and the impacts of climate change, with an emphasis on
-computational tools and techniques for understanding, visualizing and
-predicting current and future agricultural production.  This course
+This course
 provides a broad introduction to the area of food (in)security with an
 emphasis on: computational tools and techniques for understanding,
 visualizing and predicting current and future agricultural production,
@@ -24,7 +21,7 @@ production, carbon sequestration, and bio-diversity; and tools to
 support Climate Smart Agriculture.
 
 This course is intended for Computer Science students who have an
-interest in agriculture and/or the UN Sustainability Goals around
+interest in agriculture and/or in the UN Sustainability Goals around
 ending Food Insecurity.  It is hoped that the course will give
 students a broad understanding of the area, and if they want to go
 deeper, to give them an initial basis for joining a team of
