@@ -65,6 +65,7 @@ fao.org/documents/card/en/c/cc0639en))
   system, including "normalization", using Postgres, Python, Jupyter, DBeaver
   (students may use their favorite tools)
   - Talk about challenges of creating diverse datasets that can be used together
+- &#x1F534; Bring in data about nutrition and country populations -- what data sets?
 - Use of Protege ontology tool to help visualize categorizations
 - Visualization using Tableau Public and/or DataWrapper
   - Importance of pre-processing data for use with these visualization tools
@@ -151,29 +152,46 @@ fao.org/documents/card/en/c/cc0639en))
 
 - e.g., selections from IPCC Sixth Assessment Report
   [Climate Change 2021: The Physical Basis](https://www.ipcc.ch/report/ar6/wg1/)
+  - e.g., "Climatic impact-drivers (CIDs)"
+  - Interesting tool: [IPCC WGI Interactive Atlas](https://interactive-atlas.ipcc.ch/)
 - e.g., IIASA [Shared Socioeconomic Pathways Scenario Database web pages](https://iiasa.ac.at/models-tools-data/ssp)
+  - possibly, talk about Radiative Forcing (e.g., see [MIT Explainers page on radiative forcing](https://climate.mit.edu/explainers/radiative-forcing)
 - &#x1F534; What are some good data sets about predicted climate change out
-  to 2100, for the 5 standard SSPs?
+  to 2100, for the 5 standard SSPs? (Can I dig them out of the [IIASA SSPs website](https://iiasa.ac.at/models-tools-data/ssp)?
+  - A possibility here is the article "ClimateBench v1.0: A Benchmark
+    for Data-Driven Climate Projections", D. Watson-Parris et. al.,
+    Journal of Advances in Modeling Earth Systems (JAMES), Spt, 2022;
+    available
+    [here](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954)
+    - the [ClimateBench github page](https://github.com/duncanwp/ClimateBench)
+      might have useful software (&#x1F534; Is this relatively easy to use?)
 
 
 ### Basics of Impacts of Climate Change on Agriculture
 
+- Material from [IPCC Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/), spez.
+  - details 
 - &#x1F534; <span style="color:red">What articles?</span>
 - &#x1F534; <span style="color:red">Want data about weather for a given region, and ability
   to create .met file (and perhaps others) from it</span>
-- Using APSIM to model impacts of climate change
-  - e.g., Continuous Wheat with Climate Change, described
-    [here](https://www.apsim.info/support/apsim-training-manuals/climate-change/);
-    &#x1F534; <span style="color:red">However, this is for APSIM Classic; how to convert
-    into APSIM NextGen?</span>    
-- &#x1F534; <span style="color:red">Illustration of impact of climate change at a more macro level??
-  </span>
+- Will illustrate by using APSIM to model impacts of climate change (see below),
+  and hopefully at a macro level also
 
 ### Basics of Agricultural impact on GHG's and Climate Change
 
-- Something about Soil Organic Carbon (?), e.g.,
-  FAO document "Soil Organic Carbon: The Hidden Potential" (2017)
-  available [here](https://www.fao.org/3/a-i6937e.pdf)
+
+- GHG output from ag industry
+  - e.g. [UN Land Use, Land Use Change and Forestry (LULUCF)
+    website](https://unfccc.int/topics/land-use/workstreams/land-use--land-use-change-and-forestry-lulucf)
+    talks about how AFOLU accounted for about 23% of anthropoorphic
+    GHG emeissions 2007-2016
+  - &#x1F534; Other sources/articles?
+- Carbon sequestration
+  - e.g., again [UN Land Use, Land Use Change and Forestry (LULUCF) website](https://unfccc.int/topics/land-use/workstreams/land-use--land-use-change-and-forestry-lulucf)
+  - Something about Soil Organic Carbon (?), e.g.,
+    FAO document "Soil Organic Carbon: The Hidden Potential" (2017)
+    available [here](https://www.fao.org/3/a-i6937e.pdf)
+  - &#x1F534; Other??
 
 
 ### Climate Smart Agriculture
@@ -187,9 +205,18 @@ fao.org/documents/card/en/c/cc0639en))
 
 ### Computing illustrations and exercises
 
-- The idea is to use APSIM to illustrate how climate change would affect ag production
+- Use APSIM to illustrate how climate change would affect ag production
   at a fairly localized scale.  Need to translate various climate change weather predictions
-  into met files?
+  into .met files?
+  - cf APSIM example on "Continuous Wheat with Climate Change",
+    available
+    [here](https://www.apsim.info/support/apsim-training-manuals/climate-change/);
+    (&#x1F534; However, this is for APSIM Classic; how to convert
+    into APSIM NextGen?)
+- &#x1F534; <span style="color:red">Illustration of impact of climate change at a more macro level??
+  </span>
+
+
 - Possibly a similar exercise at a more macro level
 
 
