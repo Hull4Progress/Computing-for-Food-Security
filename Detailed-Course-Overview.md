@@ -11,8 +11,8 @@ The course will be presented during the 10-week Spring quarter of 2023.
 There will be one 2-hour lecture each week, on Wednesday.
 Each of the main sections will be covered in 2 to 3 weeks.
 
-(In the outline below, a red cirle (&#x1F534;) indicates an area where
-I am still looking for appropriate materials, data or software tools...)
+In the outline below, a red cirle (&#x1F534;) indicates an area where
+I am still looking for appropriate materials, data or software tools...
 
 
 ## 1. Food production and consumption, world-wide
@@ -59,13 +59,14 @@ I am still looking for appropriate materials, data or software tools...)
 
 - Bringing data into Postgres, including "normalization", using Python, Jupyter, DBeaver (students may use their favorite tools)
   - Talk about challenges of creating diverse datasets that can be used together
-- Use of Protege ontology tool to help visualize categories
+- Use of Protege ontology tool to help visualize categorizations
 - Visualization using Tableau Public and/or DataWrapper
   - Importance of pre-processing data for use with these visualization tools
 - Student exercise (over first 2 or 3 weeks) is to download and organize the data,
   ask an interesting question (e.g., given reduction of Ukraine's ag output due to
-  the war, what is impact on food levels available to Ghana as compared with 2019
-  levels?) and produce some informative visualizations the communicate the answer
+  the war, what is impact on food and nutrition levels available to Ghana as compared with 2019
+  levels?) and produce some informative visualizations the communicate the answer.
+  Might also include fertiliser production and trade, if I can find appropriate data sets
 
 
 
@@ -74,15 +75,15 @@ I am still looking for appropriate materials, data or software tools...)
 
 ### Crop Forecast at the Micro Level: Simulators
 
-- APSIM as a representative simulation system,
-  introduced using a few articles and videos, including
+- APSIM as a representative simulation system.  Goal is that students will become
+  beginning users of the system, and be able to create some simple crop simulations,
+  e.g., for a given (part of a) country.
+- Introduction to APSIM will include
   - “Plant Modeling Framework: Software for building and running crop
      models on the APSIM platform” dby Brown HE, Huth NI, Holzworth
      DP, Teixeira EI, Zyskowski RF, Hargreaves JNG, Moot DJ,
      Environmental Modeling & Software 62, 385-398,
      available [here](https://www.sciencedirect.com/science/article/pii/S1364815214002588)
-  - YouTube: "APSIM Next Gen Training Video"
-    available [here](https://www.youtube.com/watch?v=5DogVqLYbUs)
   - other ...
 - Validation of APSIM
   - e.g., Article “Simulation of growth and development of diverse legume
@@ -91,8 +92,6 @@ I am still looking for appropriate materials, data or software tools...)
     M. Bell, G. C. Wright, S. J. Yeates, and R. B. Brinsmead
     Aust. J. Agric.Res., 2002, 53, pp 429-446,
     available [here](https://www.researchgate.net/profile/S-Yeates-2/publication/263003628_Simulation_of_growth_and_development_of_diverse_legume_species_in_APSIM/links/573bf7d408ae298602e45f01/Simulation-of-growth-and-development-of-diverse-legume-species-in-APSIM.pdf)
-
-
 - Overview of other simulation models
   - e.g., "Comparing the performance of 11 crop simulation models in
     predicting yield response to nitrogen fertilization" Tapio J. Salo,
@@ -113,7 +112,12 @@ I am still looking for appropriate materials, data or software tools...)
 
 ### Computing illustrations and exercises
 
-
+- APSIM
+  - There are many YouTube videos for APSIM NextGen, including
+    - "APSIM Next Gen Training Video"
+      available [here](https://www.youtube.com/watch?v=5DogVqLYbUs)
+    -  
+  - I will illustrate APSIM by building 
 
 
 
