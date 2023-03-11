@@ -114,11 +114,13 @@ fao.org/documents/card/en/c/cc0639en))
 
 - Remote Sensing, including interpretation and interpolation
   - &#x1F534; What articles?  What data sets?
-- Possible article: “Coupling Machine Learning and Crop Modeling
-  Improves Crop Yield Prediction in the US Corn Belt.” Shahhosseini,
-  M., H. Guiping, I. Huber, and S. V. Archontoulis. 2021, Scientific
-  Reports 11:1606. doi:10.1038/s41598-020-80820-1.; available
-  [here](https://www.nature.com/articles/s41598-020-80820-1)
+- ML for macro-level forecasting
+  - Possible article: “Coupling Machine Learning and Crop Modeling
+    Improves Crop Yield Prediction in the US Corn Belt.” Shahhosseini,
+    M., H. Guiping, I. Huber, and S. V. Archontoulis. 2021, Scientific
+    Reports 11:1606. doi:10.1038/s41598-020-80820-1.; available
+    [here](https://www.nature.com/articles/s41598-020-80820-1)
+  - &#x1F534; What articles?  What data?  What tools?  
 
 
 
@@ -133,14 +135,18 @@ fao.org/documents/card/en/c/cc0639en))
     - &#x1F534; How to get appropriate weather data (.met file)?
       Probably use [BestiaPop](https://bestiapop.readthedocs.io/en/latest/)
     - &#x1F534; How to get appropriate soil data? Possibly use [GAEZ](https://gaez.fao.org/)?
--  &#x1F534; ML and remote sensing example (what to use?)
-
+-  &#x1F534; ML and remote sensing for some macro-level example (what to use?)
+   - Plan to illustrate for different places
+- &#x1F534; Possibly, if I can find some appropriate source materials,
+  something about the computing technologies for creating the
+  different pathway models.  (However this might be too deep and too
+  out-of-scope)
 
 
 ## 3. Agriculture and Climate Change
 
 
-### Overview of Climate Change: Shared Socioeconomic Pathways (SSPs) &amp
+### Overview of Climate Change: Shared Socioeconomic Pathways (SSPs) &amp;
     Relative Concentration Pathways (RCPs)
 
 - e.g., selections from IPCC Sixth Assessment Report
@@ -200,7 +206,7 @@ This topic will most likely be centered around two papers:
   [here](https://www.pnas.org/doi/10.1073/pnas.1011078107)
 - “Relocating croplands could drastically reduce the environmental
   impacts of global food production” by Robert M. Beyer,Fangyuan Hua ,
-  Philip A. Martin , Andrea Manica &amp Tim Rademacher, COMMUNICATIONS
+  Philip A. Martin , Andrea Manica &amp; Tim Rademacher, COMMUNICATIONS
   EARTH & ENVIRONMENT; (2022)3:49, available
   [here](https://doi.org/10.1038/s43247-022-00360-6)
 
