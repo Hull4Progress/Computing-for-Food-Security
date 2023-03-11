@@ -35,14 +35,18 @@ I am still looking for appropriate materials, data or software tools...
 - [FAO Trade of ag commodities (1986-2020)](https://www.fao.org/food-agriculture-statistics/data-release/data-release-detail/en/c/1507740/)
 - [FAO Central Product Classification (CPC) v2.1](https://unstats.un.org/unsd/classifications/unsdclassifications/cpcv21.pdf) and also see
   [dataset available here](https://unstats.un.org/unsd/classifications/Econ/cpc)
-- &#x1F534; Some data set about nutrition in foods -- ??
+- Nutrition in foods; going from food production/import to nutrition availability
   - Draw from pp. 19 and following from "Global Food Security" by Zhang-Yue Zhou (2020)
   - Shift in perspectives about nutrition, from calories alone to nutritious diet overall
-    (cf [2022 FAO report on The State of Food Security and Nutrition in the World](https://www.fao.org/documents/card/en/c/cc0639en))
-- Some data set about country-level populations and nutritional needs -- ??
-- Something about food loss and waste, e.g., McKinsey insights paper
-  "Reducing food loss: What grocery retailers and manufacturers can do", Sept. 7, 2022,
-  available [here](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
+    (cf [2022 FAO report on The State of Food Security and Nutrition in the World](https://www.
+fao.org/documents/card/en/c/cc0639en))
+  - &#x1F534; Some data set about nutrition in foods -- ??
+- &#x1F534; Some data set about country-level populations and nutritional needs -- ??
+- Something about food loss and waste, e.g., at least in western countries it is about 15%
+  from field to warehouse or processing, and another 15% from retail to consumer
+  - e.g., McKinsey insights paper
+    "Reducing food loss: What grocery retailers and manufacturers can do", Sept. 7, 2022,
+    available [here](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
 
 ### Key themes
 
@@ -57,20 +61,23 @@ I am still looking for appropriate materials, data or software tools...
  
 ### Computing illustrations and exercise
 
-- Bringing data into Postgres, including "normalization", using Python, Jupyter, DBeaver (students may use their favorite tools)
+- Bringing FAO production and trade data into a database management
+  system, including "normalization", using Postgres, Python, Jupyter, DBeaver
+  (students may use their favorite tools)
   - Talk about challenges of creating diverse datasets that can be used together
 - Use of Protege ontology tool to help visualize categorizations
 - Visualization using Tableau Public and/or DataWrapper
   - Importance of pre-processing data for use with these visualization tools
 - Student exercise (over first 2 or 3 weeks) is to download and organize the data,
   ask an interesting question (e.g., given reduction of Ukraine's ag output due to
-  the war, what is impact on food and nutrition levels available to Ghana as compared with 2019
+  the war, what is impact on food and nutrition levels available to, e.g., Chad or
+  Central African Republic as compared with 2019
   levels?) and produce some informative visualizations the communicate the answer.
   Might also include fertiliser production and trade, if I can find appropriate data sets
 
 
 
-## 2. Predicting agricultural productivity: Micro and Macro
+## 2. Forecasting agricultural productivity: Micro and Macro
 
 
 ### Crop Forecast at the Micro Level: Simulators
@@ -107,6 +114,11 @@ I am still looking for appropriate materials, data or software tools...
 
 - Remote Sensing, including interpretation and interpolation
   - &#x1F534; What articles?  What data sets?
+- Possible article: “Coupling Machine Learning and Crop Modeling
+  Improves Crop Yield Prediction in the US Corn Belt.” Shahhosseini,
+  M., H. Guiping, I. Huber, and S. V. Archontoulis. 2021, Scientific
+  Reports 11:1606. doi:10.1038/s41598-020-80820-1.; available
+  [here](https://www.nature.com/articles/s41598-020-80820-1)
 
 
 
@@ -115,21 +127,27 @@ I am still looking for appropriate materials, data or software tools...
 - APSIM
   - There are many YouTube videos for APSIM NextGen, including
     - "APSIM Next Gen Training Video"
-      available [here](https://www.youtube.com/watch?v=5DogVqLYbUs)
-    -  
-  - I will illustrate APSIM by building 
+      available [here](https://www.youtube.com/watch?v=5DogVqLYbUs) 
+  - I will illustrate APSIM by building a simulation, e.g., for a given crop
+    and given location
+    - &#x1F534; How to get appropriate weather data (.met file)?
+      Probably use [BestiaPop](https://bestiapop.readthedocs.io/en/latest/)
+    - &#x1F534; How to get appropriate soil data? Possibly use [GAEZ](https://gaez.fao.org/)?
+-  &#x1F534; ML and remote sensing example (what to use?)
 
 
 
 ## 3. Agriculture and Climate Change
 
 
-### Overview of Climate Change: Shared Socioeconomic Pathways (SSPs) \&
+### Overview of Climate Change: Shared Socioeconomic Pathways (SSPs) &amp
     Relative Concentration Pathways (RCPs)
 
 - e.g., selections from IPCC Sixth Assessment Report
   [Climate Change 2021: The Physical Basis](https://www.ipcc.ch/report/ar6/wg1/)
 - e.g., IIASA [Shared Socioeconomic Pathways Scenario Database web pages](https://iiasa.ac.at/models-tools-data/ssp)
+- &#x1F534; What are some good data sets about predicted climate change out
+  to 2100, for the 5 standard SSPs?
 
 
 ### Basics of Impacts of Climate Change on Agriculture
@@ -182,7 +200,7 @@ This topic will most likely be centered around two papers:
   [here](https://www.pnas.org/doi/10.1073/pnas.1011078107)
 - “Relocating croplands could drastically reduce the environmental
   impacts of global food production” by Robert M. Beyer,Fangyuan Hua ,
-  Philip A. Martin , Andrea Manica & Tim Rademacher, COMMUNICATIONS
+  Philip A. Martin , Andrea Manica &amp Tim Rademacher, COMMUNICATIONS
   EARTH & ENVIRONMENT; (2022)3:49, available
   [here](https://doi.org/10.1038/s43247-022-00360-6)
 
