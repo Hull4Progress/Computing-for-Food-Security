@@ -147,8 +147,7 @@ fao.org/documents/card/en/c/cc0639en))
 ## 3. Agriculture and Climate Change
 
 
-### Overview of Climate Change: Shared Socioeconomic Pathways (SSPs) &amp;
-    Relative Concentration Pathways (RCPs)
+### Overview of Climate Change: Shared Socioeconomic Pathways (SSPs) &amp; Relative Concentration Pathways (RCPs)
 
 - e.g., selections from IPCC Sixth Assessment Report
   [Climate Change 2021: The Physical Basis](https://www.ipcc.ch/report/ar6/wg1/)
