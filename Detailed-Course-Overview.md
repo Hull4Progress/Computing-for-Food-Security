@@ -18,7 +18,7 @@ Each of the main sections will be covered in 2 to 3 weeks.
 - Socio-economic perspectives; Food (In)security
   - e.g., UN Sustainable Goals; mission of FAO
   - e.g., draw from [FAO The State of Food Security and Nutrition in the World 2022](https://www.fao.org/publications/sofi/2022/en/)
-  - Food systems overview (e.g., [visible and invixible flows of ag prod](https://www.iisd.org/sites/default/files/2021-01/mueller-2015-food-system-type-figure.jpg)
+  - Food systems overview (e.g., [visible and invisible flows of ag prod](https://www.iisd.org/sites/default/files/2021-01/mueller-2015-food-system-type-figure.jpg)
 - FAO (and related) data sets; data and tools, including production, trade,
   - Illustrative example: Impact of war in Ukraine on food supply
 - Crop yield prediction; tools
