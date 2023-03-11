@@ -149,21 +149,22 @@ fao.org/documents/card/en/c/cc0639en))
 
 ### Overview of Climate Change: Shared Socioeconomic Pathways (SSPs) &amp; Relative Concentration Pathways (RCPs)
 
-- e.g., selections from IPCC Sixth Assessment Report
+- Selections from IPCC Sixth Assessment Report
   [Climate Change 2021: The Physical Basis](https://www.ipcc.ch/report/ar6/wg1/)
   - e.g., "Climatic impact-drivers (CIDs)"
   - Interesting tool: [IPCC WGI Interactive Atlas](https://interactive-atlas.ipcc.ch/)
-- e.g., IIASA [Shared Socioeconomic Pathways Scenario Database web pages](https://iiasa.ac.at/models-tools-data/ssp)
-  - possibly, talk about Radiative Forcing (e.g., see [MIT Explainers page on radiative forcing](https://climate.mit.edu/explainers/radiative-forcing)
+- IIASA [Shared Socioeconomic Pathways Scenario Database web pages](https://iiasa.ac.at/models-tools-data/ssp)
+  - possibly, talk about Radiative Forcing (e.g., see [MIT Explainers page on radiative forcing](https://climate.mit.edu/explainers/radiative-forcing))
 - &#x1F534; What are some good data sets about predicted climate change out
-  to 2100, for the 5 standard SSPs? (Can I dig them out of the [IIASA SSPs website](https://iiasa.ac.at/models-tools-data/ssp)?
+  to 2100, for the 5 standard SSPs? (Can I dig them out of the [IIASA SSPs website](https://iiasa.ac.at/models-tools-data/ssp)?)
   - A possibility here is the article "ClimateBench v1.0: A Benchmark
     for Data-Driven Climate Projections", D. Watson-Parris et. al.,
     Journal of Advances in Modeling Earth Systems (JAMES), Spt, 2022;
     available
     [here](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954)
     - the [ClimateBench github page](https://github.com/duncanwp/ClimateBench)
-      might have useful software (&#x1F534; Is this relatively easy to use?)
+      might have useful software (&#x1F534; Is it relatively easy to learn
+      how to use for some basic illsutrations?)
 
 
 ### Basics of Impacts of Climate Change on Agriculture
@@ -191,6 +192,8 @@ fao.org/documents/card/en/c/cc0639en))
     FAO document "Soil Organic Carbon: The Hidden Potential" (2017)
     available [here](https://www.fao.org/3/a-i6937e.pdf)
   - &#x1F534; Other??
+- Something about other environmental impacts (e.g., fertilizer runoff and eutrophication,
+  biodiversity, ...). (&#x1F534; What are some good sources?)
 
 
 ### Climate Smart Agriculture
@@ -207,16 +210,15 @@ fao.org/documents/card/en/c/cc0639en))
 - Use APSIM to illustrate how climate change would affect ag production
   at a fairly localized scale.  Need to translate various climate change weather predictions
   into .met files?
-  - cf APSIM example on "Continuous Wheat with Climate Change",
+  - cf APSIM example on "Continuous Wheat with Climate Change";
     available
     [here](https://www.apsim.info/support/apsim-training-manuals/climate-change/);
     (&#x1F534; However, this is for APSIM Classic; how to convert
     into APSIM NextGen?)
-- &#x1F534; <span style="color:red">Illustration of impact of climate change at a more macro level??
-  </span>
+- &#x1F534; Illustration of impact of climate change at a more macro level??
 
 
-- Possibly a similar exercise at a more macro level
+
 
 
 
@@ -227,8 +229,8 @@ fao.org/documents/card/en/c/cc0639en))
 This topic will most likely be centered around two papers:
 
 - "Trading carbon for food: Global comparison of carbon stocks
-  vs. crop yields on agricultural land Paul C. West pcwest@wisc.edu,
-  Holly K. Gibbs, Chad Monfreda, +3 , and Jonathan A. Fole available
+  vs. crop yields on agricultural land, Paul C. West et. al.;
+  available
   [here](https://www.pnas.org/doi/10.1073/pnas.1011078107)
 - “Relocating croplands could drastically reduce the environmental
   impacts of global food production” by Robert M. Beyer,Fangyuan Hua ,
