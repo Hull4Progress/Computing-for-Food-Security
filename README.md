@@ -14,7 +14,7 @@ We are very interested in comments and feedback.  Please submit comments
 as new "Issues".
 
 A high-level course description may be found
-[here](Short-Course-Desciption.md).
+[here](Short-Course-Description.md).
 
 A (draft) detailed course overview, including major topics to be covered,
 source materials, and programming exercises may be found
