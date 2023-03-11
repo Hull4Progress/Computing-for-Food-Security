@@ -23,13 +23,15 @@ climate change; optimizing for simultaneous maximization of food
 production, carbon sequestration, and bio-diversity; and tools to
 support Climate Smart Agriculture.
 
-This course is intended for Computer Science students who have an interest
-in agriculture and/or the UN Sustainability Goals around ending Food Insecurity.
-It is hoped that the course will give students a broad understanding
-of the area, and if they want to go deeper, to give them an initial basis for
-joining a team of Agroscientists, Public Policy specialists and other Computer Scientists to
-work on issues of crop prediction, longer term agricultural planning in the face of
-climate change, and national or federal level food security issues.
+This course is intended for Computer Science students who have an
+interest in agriculture and/or the UN Sustainability Goals around
+ending Food Insecurity.  It is hoped that the course will give
+students a broad understanding of the area, and if they want to go
+deeper, to give them an initial basis for joining a team of
+Agroscientists, Public Policy specialists and/or other Computer
+Scientists to work on issues of crop prediction, longer term
+agricultural planning in the face of climate change, and national- or
+global-level food security issues.
 
 Prerequisites: Undergraduate degree in Computer Science or similar
 field, including substantial programming experience and at least some

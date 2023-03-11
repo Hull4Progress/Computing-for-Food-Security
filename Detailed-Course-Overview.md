@@ -87,7 +87,7 @@ Each of the main sections will be covered in 2 to 3 weeks.
 
 - Validation of APSIM
 
-  - Article “Simulation of growth and development of diverse legume
+  - e.g., Article “Simulation of growth and development of diverse legume
     species in APSIM” by M. J. Robertson, P. S. Carberry,
     N. I. Huth, J. E. Turpin, M. E. Probert, P. L. Poulton,
     M. Bell, G. C. Wright, S. J. Yeates, and R. B. Brinsmead
@@ -110,7 +110,7 @@ Each of the main sections will be covered in 2 to 3 weeks.
 
 
 - Remote Sensing, including interpretation and interpolation
-  - <span style="color:red">What articles?  What data sets?</span>
+  - &#x1F534; <span style="color:red">What articles?  What data sets?</span>
 
 - 
 
