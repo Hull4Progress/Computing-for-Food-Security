@@ -130,6 +130,14 @@ fao.org/documents/card/en/c/cc0639en))
   - &#x1F534; What articles?  What data?  What tools?  
 
 
+### Key Themes
+
+- Crop yield forecast, be it by simulation or ML, involves a lifecycle of 
+  steps, including model building (by hand or through ML), extensive data collection,
+  validation, tuning/calibration
+- There is always uncertainty (e.g., new pests that aren't in the models or
+  the historical data)
+
 
 ### Computing illustrations and exercises
 
@@ -213,6 +221,14 @@ fao.org/documents/card/en/c/cc0639en))
 - e.g., EU website "[Climate Smart Agriculture](https://ec.europa.eu/eip/agriculture/en/news/climate-smart-agriculture)"
 - &#x1F534; <span style="color:red">Something about instrumentation for smart ag??</span>
 
+### Key Themes
+
+- Importance of our understanding of both agricultural productivity and possible
+  climate change pathways as the basis for pro-actively working towards
+  mitigation of the climate change impacts
+- The challenges of moving an industry, in this case agriculture, in a direction
+  that will mitigate climate change impacts, in terms of public policy (government
+  incentives, etc.), stakeholder education, large and small landholder investments, ...
 
 ### Computing illustrations and exercises
 
@@ -235,7 +251,7 @@ fao.org/documents/card/en/c/cc0639en))
 
 ##  4. Optimizations for Productivity and Sustainability
 
-This topic will most likely be centered around two papers:
+### This topic will most likely be centered around two papers:
 
 - "Trading carbon for food: Global comparison of carbon stocks
   vs. crop yields on agricultural land, Paul C. West et. al.;
@@ -247,5 +263,16 @@ This topic will most likely be centered around two papers:
   EARTH & ENVIRONMENT; (2022)3:49, available
   [here](https://doi.org/10.1038/s43247-022-00360-6)
 
-There will probably not be a programming exercise with this topic area
+### Key Themes
+
+- The optimization study described is "academic" in the sense that it
+  focuses on some issues and ignores many others, e.g., the cost of
+  re-locating agriculture, and all of the associate infrastructure, from one area to another
+- Nevertheless, these kinds of "academic" studies can help people
+  to understand the art of the possible, and will foster more comprehensive
+  analysis of possible paths forward
+
+### There will probably not be a programming exercise with this topic area
+
+
 
