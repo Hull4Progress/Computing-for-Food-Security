@@ -100,6 +100,12 @@ fao.org/documents/card/en/c/cc0639en))
     M. Bell, G. C. Wright, S. J. Yeates, and R. B. Brinsmead
     Aust. J. Agric.Res., 2002, 53, pp 429-446,
     available [here](https://www.researchgate.net/profile/S-Yeates-2/publication/263003628_Simulation_of_growth_and_development_of_diverse_legume_species_in_APSIM/links/573bf7d408ae298602e45f01/Simulation-of-growth-and-development-of-diverse-legume-species-in-APSIM.pdf)
+  - e.g., Article "Evaluation of the APSIM model in cropping systems of Asia”,
+    D.S. Gaydon et. al. (2017); available [here](https://www.sciencedirect.com/science/article/pii/S0378429016308759)
+  - Actually, for each [APSIMx model in release](https://apsimnextgeneration.netlify.app/modeldocumentation/) 
+    you can download a pdf "Description \amp; validation" pdf that includes many things 
+    including validation info (e.g., for [Wheat](https://builds.apsim.info/api/nextgen/docs/Wheat.pdf).  
+    These pdf's are kept up-to-date.
 - Overview of other simulation models
   - e.g., "Comparing the performance of 11 crop simulation models in
     predicting yield response to nitrogen fertilization" Tapio J. Salo,
@@ -131,17 +137,16 @@ fao.org/documents/card/en/c/cc0639en))
   - There are many YouTube videos for APSIM NextGen, including
     - "APSIM Next Gen Training Video"
       available [here](https://www.youtube.com/watch?v=5DogVqLYbUs) 
+    - "How to create and run an APSIM Next Generation simulation" (which
+      uses barley); available [here](https://www.youtube.com/watch?v=OUP6dQC1lEU)
   - I will illustrate APSIM by building a simulation, e.g., for a given crop
     and given location
     - &#x1F534; How to get appropriate weather data (.met file)?
-      Probably use [BestiaPop](https://bestiapop.readthedocs.io/en/latest/)
-    - &#x1F534; How to get appropriate soil data? Possibly use [GAEZ](https://gaez.fao.org/)?
+      Use [GAEZ](https://gaez.fao.org/) for climate and [BestiaPop](https://bestiapop.readthedocs.io/en/latest/) to translate into .met?
+    - &#x1F534; How to get appropriate soil data? Probably use [GAEZ](https://gaez.fao.org/)?
 -  &#x1F534; ML and remote sensing for some macro-level example (what to use?)
    - Plan to illustrate for different places
-- &#x1F534; Possibly, if I can find some appropriate source materials,
-  something about the computing technologies for creating the
-  different pathway models.  (However this might be too deep and too
-  out-of-scope)
+
 
 
 ## 3. Agriculture and Climate Change
@@ -157,23 +162,27 @@ fao.org/documents/card/en/c/cc0639en))
   - possibly, talk about Radiative Forcing (e.g., see [MIT Explainers page on radiative forcing](https://climate.mit.edu/explainers/radiative-forcing))
 - &#x1F534; What are some good data sets about predicted climate change out
   to 2100, for the 5 standard SSPs? (Can I dig them out of the [IIASA SSPs website](https://iiasa.ac.at/models-tools-data/ssp)?)
+- &#x1F534; Possibly, if I can find some appropriate source materials,
+  something about the computing technologies for creating the
+  different pathway models.  (However this might be too deep and too
+  out-of-scope)
   - A possibility here is the article "ClimateBench v1.0: A Benchmark
     for Data-Driven Climate Projections", D. Watson-Parris et. al.,
     Journal of Advances in Modeling Earth Systems (JAMES), Spt, 2022;
     available
     [here](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954)
-    - the [ClimateBench github page](https://github.com/duncanwp/ClimateBench)
-      might have useful software (&#x1F534; Is it relatively easy to learn
+    - cf. the [ClimateBench github page](https://github.com/duncanwp/ClimateBench),
+      which might have useful software (&#x1F534; Is it relatively easy to learn
       how to use for some basic illsutrations?)
 
 
 ### Basics of Impacts of Climate Change on Agriculture
 
-- Material from [IPCC Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/), spez.
-  - details 
-- &#x1F534; <span style="color:red">What articles?</span>
-- &#x1F534; <span style="color:red">Want data about weather for a given region, and ability
-  to create .met file (and perhaps others) from it</span>
+
+- &#x1F534; What are some good articles or websites about this?
+  - Perhaps, material from [IPCC Sixth Assessment -- Technical Report](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_TS.pdf)?
+- &#x1F534; Want data about weather for a given region, and ability
+  to create .met file (and perhaps others) from it
 - Will illustrate by using APSIM to model impacts of climate change (see below),
   and hopefully at a macro level also
 
