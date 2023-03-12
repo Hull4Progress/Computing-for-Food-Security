@@ -177,7 +177,7 @@ I am still looking for appropriate materials, data or software tools...
   out-of-scope)
   - A possibility here is the article "ClimateBench v1.0: A Benchmark
     for Data-Driven Climate Projections", D. Watson-Parris et. al.,
-    Journal of Advances in Modeling Earth Systems (JAMES), Spt, 2022;
+    Journal of Advances in Modeling Earth Systems (JAMES), Sept, 2022;
     available
     [here](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954)
     - cf. the [ClimateBench github page](https://github.com/duncanwp/ClimateBench),
@@ -287,10 +287,10 @@ I am still looking for appropriate materials, data or software tools...
   is "academic" in the sense that it
   focuses on some issues and ignores many others, e.g., the cost of
   re-locating agriculture, and all of the associate infrastructure, from one area to another
-  Nevertheless, these kinds of "academic" studies can help people.  
+  Nevertheless, these kinds of "academic" studies can help people  
   to understand the art of the possible, and will foster more comprehensive
   analysis of possible paths forward.
-- Studies that will help guide public policy bring together a broad array of specialties
+- Studies that will help guide public policy bring together a broad array of specialties.
 
 
 ### There will probably not be a programming exercise with this topic area
