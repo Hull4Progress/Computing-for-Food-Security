@@ -36,10 +36,10 @@ I am still looking for appropriate materials, data or software tools...
 - [FAO Central Product Classification (CPC) v2.1](https://unstats.un.org/unsd/classifications/unsdclassifications/cpcv21.pdf) and also see
   [dataset available here](https://unstats.un.org/unsd/classifications/Econ/cpc)
 - Nutrition in foods; going from food production/import to nutrition availability
-  - Draw from pp. 19 and following from "Global Food Security" by Zhang-Yue Zhou (2020)
+  - Draw from pp. 19 and following from the book
+    "Global Food Security" by Zhang-Yue Zhou (2020)
   - Shift in perspectives about nutrition, from calories alone to nutritious diet overall
-    (cf [2022 FAO report on The State of Food Security and Nutrition in the World](https://www.
-fao.org/documents/card/en/c/cc0639en))
+    (cf [2022 FAO report on The State of Food Security and Nutrition in the World](https://www.fao.org/documents/card/en/c/cc0639en))
   - &#x1F534; Some data set about nutrition in foods -- ??
 - &#x1F534; Some data set about country-level populations and nutritional needs -- ??
 - Something about food loss and waste, e.g., at least in western countries it is about 15%
@@ -88,24 +88,21 @@ fao.org/documents/card/en/c/cc0639en))
   e.g., for a given (part of a) country.
 - Introduction to APSIM will include
   - “Plant Modeling Framework: Software for building and running crop
-     models on the APSIM platform” dby Brown HE, Huth NI, Holzworth
-     DP, Teixeira EI, Zyskowski RF, Hargreaves JNG, Moot DJ,
+     models on the APSIM platform” by H.E. Brown et. al.,
      Environmental Modeling & Software 62, 385-398,
      available [here](https://www.sciencedirect.com/science/article/pii/S1364815214002588)
   - other ...
+- Key data sets for creating APSIM simulations: weather, soil. 
 - Validation of APSIM
   - e.g., Article “Simulation of growth and development of diverse legume
-    species in APSIM” by M. J. Robertson, P. S. Carberry,
-    N. I. Huth, J. E. Turpin, M. E. Probert, P. L. Poulton,
-    M. Bell, G. C. Wright, S. J. Yeates, and R. B. Brinsmead
+    species in APSIM” by M. J. Robertson et. al.,
     Aust. J. Agric.Res., 2002, 53, pp 429-446,
     available [here](https://www.researchgate.net/profile/S-Yeates-2/publication/263003628_Simulation_of_growth_and_development_of_diverse_legume_species_in_APSIM/links/573bf7d408ae298602e45f01/Simulation-of-growth-and-development-of-diverse-legume-species-in-APSIM.pdf)
   - e.g., Article "Evaluation of the APSIM model in cropping systems of Asia”,
     D.S. Gaydon et. al. (2017); available [here](https://www.sciencedirect.com/science/article/pii/S0378429016308759)
-  - Actually, for each [APSIMx model in release](https://apsimnextgeneration.netlify.app/modeldocumentation/) 
-    you can download a pdf "Description \amp; validation" pdf that includes many things 
-    including validation info (e.g., for [Wheat](https://builds.apsim.info/api/nextgen/docs/Wheat.pdf).  
-    These pdf's are kept up-to-date.
+  - Actually, for each [APSIM Next Gen model in release](https://apsimnextgeneration.netlify.app/modeldocumentation/) 
+    you can download a pdf "Description &amp; Validation" pdf that includes many things 
+    including validation info (e.g., here's the pdf for [Wheat](https://builds.apsim.info/api/nextgen/docs/Wheat.pdf)). These pdf's are kept up-to-date.
 - Overview of other simulation models
   - e.g., "Comparing the performance of 11 crop simulation models in
     predicting yield response to nitrogen fertilization" Tapio J. Salo,
@@ -125,10 +122,22 @@ fao.org/documents/card/en/c/cc0639en))
   - Possible article: “Coupling Machine Learning and Crop Modeling
     Improves Crop Yield Prediction in the US Corn Belt.” Shahhosseini,
     M., H. Guiping, I. Huber, and S. V. Archontoulis. 2021, Scientific
-    Reports 11:1606. doi:10.1038/s41598-020-80820-1.; available
+    Reports 11:1606; available
     [here](https://www.nature.com/articles/s41598-020-80820-1)
-  - &#x1F534; What articles?  What data?  What tools?  
+  - &#x1F534; What articles?  What data?  What tools?  How to incorporate
+    impact of farming practices, e.g., amount of fertilizer, irrigation
 
+
+### Key Themes
+
+- Crop yield forecast, be it by simulation or ML, involves a lifecycle of 
+  steps, including model building (by hand or through ML), extensive data collection,
+  validation, tuning/calibration
+- Overcoming challenges of incomplete data, e.g., cloud cover in remote sensing.
+  &#x1F534; What are some good illustrations of this?
+- There is always uncertainty (e.g., new pests that aren't in the models or
+  the historical data), but there is still tremendous value in reasonably-well
+  validated forecasts
 
 
 ### Computing illustrations and exercises
@@ -168,7 +177,7 @@ fao.org/documents/card/en/c/cc0639en))
   out-of-scope)
   - A possibility here is the article "ClimateBench v1.0: A Benchmark
     for Data-Driven Climate Projections", D. Watson-Parris et. al.,
-    Journal of Advances in Modeling Earth Systems (JAMES), Spt, 2022;
+    Journal of Advances in Modeling Earth Systems (JAMES), Sept, 2022;
     available
     [here](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954)
     - cf. the [ClimateBench github page](https://github.com/duncanwp/ClimateBench),
@@ -211,8 +220,18 @@ fao.org/documents/card/en/c/cc0639en))
   "Transforming Food Systems with Farmers: A Pathway for the EU", April 2022;
   available [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
 - e.g., EU website "[Climate Smart Agriculture](https://ec.europa.eu/eip/agriculture/en/news/climate-smart-agriculture)"
-- &#x1F534; <span style="color:red">Something about instrumentation for smart ag??</span>
+- &#x1F534; Something about instrumentation for smart ag, e.g., styles of
+  smart ag (e.g., drip irrigation, precision fertilization), tools for measurement,
+  associated computing technologies ??
 
+### Key Themes
+
+- Importance of our understanding of both agricultural productivity and possible
+  climate change pathways as the basis for pro-actively working towards
+  mitigation of the climate change impacts
+- The challenges of moving an industry, in this case agriculture, in a direction
+  that will mitigate climate change impacts, in terms of public policy (government
+  incentives, etc.), stakeholder education, large and small landholder investments, ...
 
 ### Computing illustrations and exercises
 
@@ -235,7 +254,7 @@ fao.org/documents/card/en/c/cc0639en))
 
 ##  4. Optimizations for Productivity and Sustainability
 
-This topic will most likely be centered around two papers:
+### Simultaneously optimizing productivity and carbon sequestion
 
 - "Trading carbon for food: Global comparison of carbon stocks
   vs. crop yields on agricultural land, Paul C. West et. al.;
@@ -247,5 +266,34 @@ This topic will most likely be centered around two papers:
   EARTH & ENVIRONMENT; (2022)3:49, available
   [here](https://doi.org/10.1038/s43247-022-00360-6)
 
-There will probably not be a programming exercise with this topic area
+### Trade-offs involving Nitrogen fertilization
+
+- “Exploring Trade-Offs Between Profit, Yield, and the Environmental
+  Footprint of Potential Nitrogen Fertilizer Regulations in the US
+  Midwest” by G. Mandrini et. al., Front. Plant Sci., 15 April 2022
+  Sec. Crop and Product Physiology Volume 13 - 2022; Available
+  [here](https://www.frontiersin.org/articles/10.3389/fpls.2022.852116/full)
+- “How Does Crop Rotation Influence Soil Moisture, Mineral Nitrogen,
+   and Nitrogen Use Efficiency?” by R. Yang et. al.  Front. Plant
+   Sci., 17 March 2022 Sec. Crop and Product Physiology Volume 13 -
+   2022; available
+   [here](https://www.frontiersin.org/articles/10.3389/fpls.2022.854731/full)
+
+
+
+### Key Themes
+
+- The optimization study on productivity and carbon sequestration
+  is "academic" in the sense that it
+  focuses on some issues and ignores many others, e.g., the cost of
+  re-locating agriculture, and all of the associate infrastructure, from one area to another
+  Nevertheless, these kinds of "academic" studies can help people  
+  to understand the art of the possible, and will foster more comprehensive
+  analysis of possible paths forward.
+- Studies that will help guide public policy bring together a broad array of specialties.
+
+
+### There will probably not be a programming exercise with this topic area
+
+
 
