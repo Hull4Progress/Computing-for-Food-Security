@@ -220,7 +220,9 @@ I am still looking for appropriate materials, data or software tools...
   "Transforming Food Systems with Farmers: A Pathway for the EU", April 2022;
   available [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
 - e.g., EU website "[Climate Smart Agriculture](https://ec.europa.eu/eip/agriculture/en/news/climate-smart-agriculture)"
-- &#x1F534; <span style="color:red">Something about instrumentation for smart ag??</span>
+- &#x1F534; Something about instrumentation for smart ag, e.g., styles of
+  smart ag (e.g., drip irrigation, precision fertilization), tools for measurement,
+  associated computing technologies ??
 
 ### Key Themes
 
