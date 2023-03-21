@@ -52,7 +52,12 @@ I am still looking for appropriate materials, data or software tools...
 
 - Talk about challenges of gathering global-level data, and standardizing across data sets
   - e.g., challenge of harmonizing production and trade data sets
-  - e.g., [FAO Zambia training deck](https://www.fao.org/fileadmin/templates/ess/CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
+  - e.g., [FAO Zambia training deck](https://www.fao.org/fileadmin/templates/ess/
+CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
+  - e.g., Explore the (Statistical Data and Metadata eXchange (SDMX))[https://sdmx.org/] and the training book "The SDMX Information Model" (available
+  (here)[https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/25f5a77c-0974-4dab-a21d-15e5a541c0bf/details].
+  See also the Clickable SDMX Interface to the information model
+  (here)[https://statswiki.unece.org/display/ClickSDMX/Clickable+SDMX+Home].
 - Talk about role of Computer Scientists in the larger ecosystem of achieving social goals
   (We are an important but relatively small part of the overall ecosystem!)
   - &#x1F534; Looking for good image/description of overall FOA
@@ -81,8 +86,14 @@ I am still looking for appropriate materials, data or software tools...
 ## 2. Forecasting agricultural productivity: Micro and Macro
 
 
-### Crop Forecast at the Micro Level: Simulators
+### Crop Forecast at the Micro Level: Crop Models and Simulation Systems
 
+- Chapter 9, "Fundamental concepts of crop models illustrated by a comparative
+  approach" by N. Brisson, J. Wery and K. Boote, in the book "Working
+  with Dynamic Crop Models: Evaluation, Analysis, Parameterization,
+  and Applications” edited by D. Wallach, D. Makowski and J.W.Jones
+  (Elsevier, 2006), available 
+  [here](http://ndl.ethernet.edu.et/bitstream/123456789/43022/1/53.pdf)
 - APSIM as a representative simulation system.  Goal is that students will become
   beginning users of the system, and be able to create some simple crop simulations,
   e.g., for a given (part of a) country.
@@ -92,8 +103,25 @@ I am still looking for appropriate materials, data or software tools...
      Environmental Modeling & Software 62, 385-398,
      available [here](https://www.sciencedirect.com/science/article/pii/S1364815214002588)
   - other ...
-- Key data sets for creating APSIM simulations: weather, soil. 
-- Validation of APSIM
+- Key data sets and tools for creating APSIM simulations: weather, soil. 
+  - BestiaPop: python tool for processing climate data sets, specifically for APSIM
+  - possibly GDAL: Python tool for processing soil data sets
+      (available [here](https://gdal.org/))
+  - possibly netCDF4: Python tool for processing NetCDF (.nc) files 
+    (for climate, soil, other) 
+      (available [here](https://pypi.org/project/netCDF4/)
+  - TM World Borders Dataset 0.3: relates countries to their lat/long (available
+        [here](https://larmarange.github.io/prevR/reference/TMWorldBorders.html))
+  - Paper "Using KML for Thematic Mapping” by Bjørn Sandvik (available
+        [here](https://thematicmapping.org/downloads/Using_KML_for_Thematic_Mapping.pdf))
+- Validation of Crop Models
+  - e.g., Chapters 12 & 13 of
+    "Fundamental concepts of crop models illustrated by a comparative
+    approach" by N. Brisson, J. Wery and K. Boote, in the book "Working
+    with Dynamic Crop Models: Evaluation, Analysis, Parameterization,
+    and Applications” edited by D. Wallach, D. Makowski and J.W.Jones
+    (Elsevier, 2006), available 
+    [here](http://ndl.ethernet.edu.et/bitstream/123456789/43022/1/53.pdf)
   - e.g., Article “Simulation of growth and development of diverse legume
     species in APSIM” by M. J. Robertson et. al.,
     Aust. J. Agric.Res., 2002, 53, pp 429-446,
