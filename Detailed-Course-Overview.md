@@ -55,9 +55,9 @@ I am still looking for appropriate materials, data or software tools...
   - e.g., [FAO Zambia training deck](https://www.fao.org/fileadmin/templates/ess/
 CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
   - e.g., Explore the (Statistical Data and Metadata eXchange (SDMX))[https://sdmx.org/] and the training book "The SDMX Information Model" (available
-  (here)[https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/25f5a77c-0974-4dab-a21d-15e5a541c0bf/details].
+  [here](https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/25f5a77c-0974-4dab-a21d-15e5a541c0bf/details).
   See also the Clickable SDMX Interface to the information model
-  (here)[https://statswiki.unece.org/display/ClickSDMX/Clickable+SDMX+Home].
+  [here](https://statswiki.unece.org/display/ClickSDMX/Clickable+SDMX+Home).
 - Talk about role of Computer Scientists in the larger ecosystem of achieving social goals
   (We are an important but relatively small part of the overall ecosystem!)
   - &#x1F534; Looking for good image/description of overall FOA
@@ -109,11 +109,20 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
       (available [here](https://gdal.org/))
   - possibly netCDF4: Python tool for processing NetCDF (.nc) files 
     (for climate, soil, other) 
-      (available [here](https://pypi.org/project/netCDF4/)
-  - TM World Borders Dataset 0.3: relates countries to their lat/long (available
+      (available [here](https://pypi.org/project/netCDF4/))
+- Working with Global Data
+  - [QGIS](https://www.qgis.org/en/site/):
+    An open-source Geographic Information System (GIS)
+  - [Natural Earth](https://www.naturalearthdata.com/): Open source map data,
+    including, e.g., maps with country available [here](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+     - (See alsoTM World Borders Dataset 0.3:
+         relates countries to their lat/long (available
         [here](https://larmarange.github.io/prevR/reference/TMWorldBorders.html))
-  - Paper "Using KML for Thematic Mapping” by Bjørn Sandvik (available
-        [here](https://thematicmapping.org/downloads/Using_KML_for_Thematic_Mapping.pdf))
+        and paper "Using KML for Thematic Mapping” by Bjørn Sandvik (available
+        [here](https://thematicmapping.org/downloads/Using_KML_for_Thematic_Mapping.pdf)))
+  - e.g., Ryan Abernathey's Tutorial on Python Cartopy package
+    ([here](https://rabernat.github.io/research_computing_2018/maps-with-cartopy.html))
+	       
 - Validation of Crop Models
   - e.g., Chapters 12 & 13 of
     "Fundamental concepts of crop models illustrated by a comparative
