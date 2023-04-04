@@ -5,7 +5,7 @@ The course is organized into 4 main sections:
 1. Food production and consumption, world-wide
 1. Forecasting agricultural productivity: Micro and Macro
 1. Agriculture and Climate Change
-1. Optimizations for Productivity and Sustainability
+1. Climate Smart Agriculture
 
 The course will be presented during the 10-week Spring quarter of 2023.
 There will be one 2-hour lecture each week, on Wednesday.
@@ -20,21 +20,23 @@ I am still looking for appropriate materials, data or software tools...
 ### Course Overview:
 
 - Socio-economic perspectives; Food (In)security
-  - e.g., UN Sustainable Goals; mission of FAO
+  - e.g., [UN Sustainable Goals](https://www.un.org/sustainabledevelopment/blog/2015/12/sustainable-development-goals-kick-off-with-start-of-new-year/); mission of [FAO](https://www.fao.org/home/en/)
   - e.g., draw from [FAO The State of Food Security and Nutrition in the World 2022](https://www.fao.org/publications/sofi/2022/en/)
   - Food systems overview (e.g., [visible and invisible flows of ag prod](https://www.iisd.org/sites/default/files/2021-01/mueller-2015-food-system-type-figure.jpg))
 - FAO (and related) data sets; data and tools, including production, trade,
-  - Illustrative example: Impact of war in Ukraine on food supply
+  - Illustrative example: [Impact of war in Ukraine on food supply](https://www.statista.com/chart/27892/share-of-food-imports-by-country-affected-by-by-food-export-bans/)
 - Crop yield prediction; tools
 - Interplay of agriculture and climate change
 - Trade-offs between productivity and environmental impact
 
 ### Intro to FOA and related data on production, trade, nutrition, nutritional needs
 
-- [FAO Ag production statistics (1961-2020)](https://www.fao.org/food-agriculture-statistics/data-release/data-release-detail/en/c/1491961/)
-- [FAO Trade of ag commodities (1986-2020)](https://www.fao.org/food-agriculture-statistics/data-release/data-release-detail/en/c/1507740/)
+- [FAO Data Portal](https://www.fao.org/faostat/en/#data)
+- [FAO Ag production statistics (1961-2021)](https://www.fao.org/faostat/en/#data/QCL)
+- (UN Standard country and area codes (M49))[https://unstats.un.org/unsd/methodology/m49/overview/]
+- [FAO Trade of ag commodities (1986-2021)](https://thundersaidenergy.com/downloads/crop-production-how-much-does-nitrogen-fertilizer-increase-yields/)
 - [FAO Central Product Classification (CPC) v2.1](https://unstats.un.org/unsd/classifications/unsdclassifications/cpcv21.pdf) and also see
-  [dataset available here](https://unstats.un.org/unsd/classifications/Econ/cpc)
+  [dataset available here](https://www.fao.org/statistics/methods-and-standards/en/)
 - Nutrition in foods; going from food production/import to nutrition availability
   - Draw from pp. 19 and following from the book
     "Global Food Security" by Zhang-Yue Zhou (2020)
@@ -42,17 +44,20 @@ I am still looking for appropriate materials, data or software tools...
     (cf [2022 FAO report on The State of Food Security and Nutrition in the World](https://www.fao.org/documents/card/en/c/cc0639en))
   - &#x1F534; Some data set about nutrition in foods -- ??
 - &#x1F534; Some data set about country-level populations and nutritional needs -- ??
-- Something about food loss and waste, e.g., at least in western countries it is about 15%
-  from field to warehouse or processing, and another 15% from retail to consumer
-  - e.g., McKinsey insights paper
-    "Reducing food loss: What grocery retailers and manufacturers can do", Sept. 7, 2022,
-    available [here](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
+- Intro to food loss and waste: e.g., worldwide about 15% of food is lost
+  from field to warehouse or processing, and another 15% is wasted from
+  retail to consumer; see [here](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
 
 ### Key themes
 
 - Talk about challenges of gathering global-level data, and standardizing across data sets
   - e.g., challenge of harmonizing production and trade data sets
-  - e.g., [FAO Zambia training deck](https://www.fao.org/fileadmin/templates/ess/CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
+  - e.g., [FAO Zambia training deck](https://www.fao.org/fileadmin/templates/ess/
+CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
+  - e.g., Explore the (Statistical Data and Metadata eXchange (SDMX))[https://sdmx.org/] and the training book "The SDMX Information Model" (available
+  [here](https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/25f5a77c-0974-4dab-a21d-15e5a541c0bf/details).
+  See also the Clickable SDMX Interface to the information model
+  [here](https://statswiki.unece.org/display/ClickSDMX/Clickable+SDMX+Home).
 - Talk about role of Computer Scientists in the larger ecosystem of achieving social goals
   (We are an important but relatively small part of the overall ecosystem!)
   - &#x1F534; Looking for good image/description of overall FOA
@@ -71,8 +76,8 @@ I am still looking for appropriate materials, data or software tools...
   - Importance of pre-processing data for use with these visualization tools
 - Student exercise (over first 2 or 3 weeks) is to download and organize the data,
   ask an interesting question (e.g., given reduction of Ukraine's ag output due to
-  the war, what is impact on food and nutrition levels available to, e.g., Chad or
-  Central African Republic as compared with 2019
+  the war, what is impact on food and nutrition levels available to,
+  e.g., to the ountries in Middle Africa as compared with 2019
   levels?) and produce some informative visualizations the communicate the answer.
   Might also include fertiliser production and trade, if I can find appropriate data sets
 
@@ -81,8 +86,14 @@ I am still looking for appropriate materials, data or software tools...
 ## 2. Forecasting agricultural productivity: Micro and Macro
 
 
-### Crop Forecast at the Micro Level: Simulators
+### Crop Forecast at the Micro Level: Crop Models and Simulation Systems
 
+- Chapter 9, "Fundamental concepts of crop models illustrated by a comparative
+  approach" by N. Brisson, J. Wery and K. Boote, in the book "Working
+  with Dynamic Crop Models: Evaluation, Analysis, Parameterization,
+  and Applications” edited by D. Wallach, D. Makowski and J.W.Jones
+  (Elsevier, 2006), available 
+  [here](http://ndl.ethernet.edu.et/bitstream/123456789/43022/1/53.pdf)
 - APSIM as a representative simulation system.  Goal is that students will become
   beginning users of the system, and be able to create some simple crop simulations,
   e.g., for a given (part of a) country.
@@ -92,8 +103,34 @@ I am still looking for appropriate materials, data or software tools...
      Environmental Modeling & Software 62, 385-398,
      available [here](https://www.sciencedirect.com/science/article/pii/S1364815214002588)
   - other ...
-- Key data sets for creating APSIM simulations: weather, soil. 
-- Validation of APSIM
+- Key data sets and tools for creating APSIM simulations: weather, soil. 
+  - BestiaPop: python tool for processing climate data sets, specifically for APSIM
+  - possibly GDAL: Python tool for processing soil data sets
+      (available [here](https://gdal.org/))
+  - possibly netCDF4: Python tool for processing NetCDF (.nc) files 
+    (for climate, soil, other) 
+      (available [here](https://pypi.org/project/netCDF4/))
+- Working with Global Data
+  - [QGIS](https://www.qgis.org/en/site/):
+    An open-source Geographic Information System (GIS)
+  - [Natural Earth](https://www.naturalearthdata.com/): Open source map data,
+    including, e.g., maps with country available [here](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+     - (See alsoTM World Borders Dataset 0.3:
+         relates countries to their lat/long (available
+        [here](https://larmarange.github.io/prevR/reference/TMWorldBorders.html))
+        and paper "Using KML for Thematic Mapping” by Bjørn Sandvik (available
+        [here](https://thematicmapping.org/downloads/Using_KML_for_Thematic_Mapping.pdf)))
+  - e.g., Ryan Abernathey's Tutorial on Python Cartopy package
+    ([here](https://rabernat.github.io/research_computing_2018/maps-with-cartopy.html))
+	       
+- Validation of Crop Models
+  - e.g., Chapters 12 & 13 of
+    "Fundamental concepts of crop models illustrated by a comparative
+    approach" by N. Brisson, J. Wery and K. Boote, in the book "Working
+    with Dynamic Crop Models: Evaluation, Analysis, Parameterization,
+    and Applications” edited by D. Wallach, D. Makowski and J.W.Jones
+    (Elsevier, 2006), available 
+    [here](http://ndl.ethernet.edu.et/bitstream/123456789/43022/1/53.pdf)
   - e.g., Article “Simulation of growth and development of diverse legume
     species in APSIM” by M. J. Robertson et. al.,
     Aust. J. Agric.Res., 2002, 53, pp 429-446,
@@ -133,6 +170,8 @@ I am still looking for appropriate materials, data or software tools...
 - Crop yield forecast, be it by simulation or ML, involves a lifecycle of 
   steps, including model building (by hand or through ML), extensive data collection,
   validation, tuning/calibration
+- Creation/use of global data sets for climate, soil; challenges of obtaining data on
+  agricultural management practices
 - Overcoming challenges of incomplete data, e.g., cloud cover in remote sensing.
   &#x1F534; What are some good illustrations of this?
 - There is always uncertainty (e.g., new pests that aren't in the models or
@@ -252,7 +291,13 @@ I am still looking for appropriate materials, data or software tools...
 
 
 
-##  4. Optimizations for Productivity and Sustainability
+##  4. Climate Smart Agriculture (CSA)
+
+### Introduction to CSA  
+
+- World Economic Forum on [why](https://www.weforum.org/agenda/2020/11/why-we-must-scale-up-climate-smart-agriculture-csa-climate-hunger-population-resilience/)
+- FAO [homepage on CSA](https://www.fao.org/climate-smart-agriculture/en/)
+- FAO {Climate Smart Agriculture Sourcebook](https://www.fao.org/climate-smart-agriculture-sourcebook/en)
 
 ### Simultaneously optimizing productivity and carbon sequestion
 
@@ -266,7 +311,14 @@ I am still looking for appropriate materials, data or software tools...
   EARTH & ENVIRONMENT; (2022)3:49, available
   [here](https://doi.org/10.1038/s43247-022-00360-6)
 
-### Trade-offs involving Nitrogen fertilization
+### Digitized/Precision Farming Practices
+
+- "Transforming Food Systems with Farmers: A Pathway for the EU", World 
+  Economic Forum, Deloitte, NTT Data, available
+  [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
+
+
+### Example: Trade-offs involving Nitrogen Fertilization
 
 - “Exploring Trade-Offs Between Profit, Yield, and the Environmental
   Footprint of Potential Nitrogen Fertilizer Regulations in the US
