@@ -5,7 +5,7 @@ The course is organized into 4 main sections:
 1. Food production and consumption, world-wide
 1. Forecasting agricultural productivity: Micro and Macro
 1. Agriculture and Climate Change
-1. Optimizations for Productivity and Sustainability
+1. Climate Smart Agriculture
 
 The course will be presented during the 10-week Spring quarter of 2023.
 There will be one 2-hour lecture each week, on Wednesday.
@@ -170,6 +170,8 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
 - Crop yield forecast, be it by simulation or ML, involves a lifecycle of 
   steps, including model building (by hand or through ML), extensive data collection,
   validation, tuning/calibration
+- Creation/use of global data sets for climate, soil; challenges of obtaining data on
+  agricultural management practices
 - Overcoming challenges of incomplete data, e.g., cloud cover in remote sensing.
   &#x1F534; What are some good illustrations of this?
 - There is always uncertainty (e.g., new pests that aren't in the models or
@@ -289,7 +291,13 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
 
 
 
-##  4. Optimizations for Productivity and Sustainability
+##  4. Climate Smart Agriculture (CSA)
+
+### Introduction to CSA
+
+- World Economic Forum on [why](https://www.weforum.org/agenda/2020/11/why-we-must-scale-up-climate-smart-agriculture-csa-climate-hunger-population-resilience/)
+- FAO [homepage on CSA](https://www.fao.org/climate-smart-agriculture/en/)
+- FAO {Climate Smart Agriculture Sourcebook](https://www.fao.org/climate-smart-agriculture-sourcebook/en)
 
 ### Simultaneously optimizing productivity and carbon sequestion
 
@@ -303,7 +311,14 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
   EARTH & ENVIRONMENT; (2022)3:49, available
   [here](https://doi.org/10.1038/s43247-022-00360-6)
 
-### Trade-offs involving Nitrogen fertilization
+### Digitized/Precision Farming Practices
+
+- "Transforming Food Systems with Farmers: A Pathway for the EU", World 
+  Economic Forum, Deloitte, NTT Data, available
+  [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
+
+
+### Example: Trade-offs involving Nitrogen fertilization
 
 - “Exploring Trade-Offs Between Profit, Yield, and the Environmental
   Footprint of Potential Nitrogen Fertilizer Regulations in the US
