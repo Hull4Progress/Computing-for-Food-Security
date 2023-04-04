@@ -293,7 +293,7 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
 
 ##  4. Climate Smart Agriculture (CSA)
 
-### Introduction to CSA
+### Introduction to CSA  
 
 - World Economic Forum on [why](https://www.weforum.org/agenda/2020/11/why-we-must-scale-up-climate-smart-agriculture-csa-climate-hunger-population-resilience/)
 - FAO [homepage on CSA](https://www.fao.org/climate-smart-agriculture/en/)
@@ -318,7 +318,7 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
   [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
 
 
-### Example: Trade-offs involving Nitrogen fertilization
+### Example: Trade-offs involving Nitrogen Fertilization
 
 - “Exploring Trade-Offs Between Profit, Yield, and the Environmental
   Footprint of Potential Nitrogen Fertilizer Regulations in the US
