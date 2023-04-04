@@ -20,21 +20,23 @@ I am still looking for appropriate materials, data or software tools...
 ### Course Overview:
 
 - Socio-economic perspectives; Food (In)security
-  - e.g., UN Sustainable Goals; mission of FAO
+  - e.g., [UN Sustainable Goals](https://www.un.org/sustainabledevelopment/blog/2015/12/sustainable-development-goals-kick-off-with-start-of-new-year/); mission of [FAO](https://www.fao.org/home/en/)
   - e.g., draw from [FAO The State of Food Security and Nutrition in the World 2022](https://www.fao.org/publications/sofi/2022/en/)
   - Food systems overview (e.g., [visible and invisible flows of ag prod](https://www.iisd.org/sites/default/files/2021-01/mueller-2015-food-system-type-figure.jpg))
 - FAO (and related) data sets; data and tools, including production, trade,
-  - Illustrative example: Impact of war in Ukraine on food supply
+  - Illustrative example: [Impact of war in Ukraine on food supply](https://www.statista.com/chart/27892/share-of-food-imports-by-country-affected-by-by-food-export-bans/)
 - Crop yield prediction; tools
 - Interplay of agriculture and climate change
 - Trade-offs between productivity and environmental impact
 
 ### Intro to FOA and related data on production, trade, nutrition, nutritional needs
 
-- [FAO Ag production statistics (1961-2020)](https://www.fao.org/food-agriculture-statistics/data-release/data-release-detail/en/c/1491961/)
-- [FAO Trade of ag commodities (1986-2020)](https://www.fao.org/food-agriculture-statistics/data-release/data-release-detail/en/c/1507740/)
+- [FAO Data Portal](https://www.fao.org/faostat/en/#data)
+- [FAO Ag production statistics (1961-2021)](https://www.fao.org/faostat/en/#data/QCL)
+- (UN Standard country and area codes (M49))[https://unstats.un.org/unsd/methodology/m49/overview/]
+- [FAO Trade of ag commodities (1986-2021)](https://thundersaidenergy.com/downloads/crop-production-how-much-does-nitrogen-fertilizer-increase-yields/)
 - [FAO Central Product Classification (CPC) v2.1](https://unstats.un.org/unsd/classifications/unsdclassifications/cpcv21.pdf) and also see
-  [dataset available here](https://unstats.un.org/unsd/classifications/Econ/cpc)
+  [dataset available here](https://www.fao.org/statistics/methods-and-standards/en/)
 - Nutrition in foods; going from food production/import to nutrition availability
   - Draw from pp. 19 and following from the book
     "Global Food Security" by Zhang-Yue Zhou (2020)
@@ -42,11 +44,9 @@ I am still looking for appropriate materials, data or software tools...
     (cf [2022 FAO report on The State of Food Security and Nutrition in the World](https://www.fao.org/documents/card/en/c/cc0639en))
   - &#x1F534; Some data set about nutrition in foods -- ??
 - &#x1F534; Some data set about country-level populations and nutritional needs -- ??
-- Something about food loss and waste, e.g., at least in western countries it is about 15%
-  from field to warehouse or processing, and another 15% from retail to consumer
-  - e.g., McKinsey insights paper
-    "Reducing food loss: What grocery retailers and manufacturers can do", Sept. 7, 2022,
-    available [here](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
+- Intro to food loss and waste: e.g., worldwide about 15% of food is lost
+  from field to warehouse or processing, and another 15% is wasted from
+  retail to consumer; see [here](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
 
 ### Key themes
 
@@ -76,8 +76,8 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
   - Importance of pre-processing data for use with these visualization tools
 - Student exercise (over first 2 or 3 weeks) is to download and organize the data,
   ask an interesting question (e.g., given reduction of Ukraine's ag output due to
-  the war, what is impact on food and nutrition levels available to, e.g., Chad or
-  Central African Republic as compared with 2019
+  the war, what is impact on food and nutrition levels available to,
+  e.g., to the ountries in Middle Africa as compared with 2019
   levels?) and produce some informative visualizations the communicate the answer.
   Might also include fertiliser production and trade, if I can find appropriate data sets
 
