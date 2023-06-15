@@ -43,7 +43,7 @@ field, including substantial programming experience and at least some
 experience with relational database management.  The course will be
 taught using a variety of Python-based tools, Postgres, and several
 application packages (including Tableau, APSIM, and possibly
-Protege), although
+Protégé), although
 students are welcome to code their assignments with other languages
 and packages if they choose.
 

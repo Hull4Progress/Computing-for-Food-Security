@@ -7,9 +7,11 @@ The course is organized into 4 main sections:
 1. Agriculture and Climate Change
 1. Climate Smart Agriculture
 
-The course will be presented during the 10-week Spring quarter of 2023.
-There will be one 2-hour lecture each week, on Wednesday.
-Each of the main sections will be covered in 2 to 3 weeks.
+The course as described here is for a 15-week semester, assuming 3 or 4 hours
+of contact time per week; the contact time will be split between
+traditional lectures and coding labs that review example code snippets.  Some content
+will be dropped if the course is presented in a 10-week quarter.
+
 
 In the outline below, a red cirle (&#x1F534;) indicates an area where
 I am still looking for appropriate materials, data or software tools...
@@ -23,11 +25,21 @@ I am still looking for appropriate materials, data or software tools...
   - e.g., [UN Sustainable Goals](https://www.un.org/sustainabledevelopment/blog/2015/12/sustainable-development-goals-kick-off-with-start-of-new-year/); mission of [FAO](https://www.fao.org/home/en/)
   - e.g., draw from [FAO The State of Food Security and Nutrition in the World 2022](https://www.fao.org/publications/sofi/2022/en/)
   - Food systems overview (e.g., [visible and invisible flows of ag prod](https://www.iisd.org/sites/default/files/2021-01/mueller-2015-food-system-type-figure.jpg))
-- FAO (and related) data sets; data and tools, including production, trade,
+- FAO (and related) [data sets](https://www.fao.org/faostat/en/); data and tools, including production, trade,
   - Illustrative example: [Impact of war in Ukraine on food supply](https://www.statista.com/chart/27892/share-of-food-imports-by-country-affected-by-by-food-export-bans/)
-- Crop yield prediction; tools
-- Interplay of agriculture and climate change
-- Trade-offs between productivity and environmental impact
+- Crop yield prediction, tools, e.g.
+  - [APSIM](https://www.apsim.info/),
+     [WOFOST](https://www.wur.nl/en/research-results/research-institutes/environmental-research/facilities-tools/software-models-and-databases/wofost.htm)
+  - Machine Learning approaches, e.g., (here)[https://www.nature.com/articles/s41598-020-80820-1],
+    (here)[https://reader.elsevier.com/reader/sd/pii/S2772375522000168],
+    (here)[https://www.sciencedirect.com/science/article/pii/S2772375522000168]
+  - Global gridded [soil](https://www.isric.org/explore/soilgrids) and
+    [agro-ecological](https://gaez.fao.org/) data
+- Interplay of agriculture and climate change, e.g.,
+  (impacts of agriculture on climate)[https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-7/],
+  (impacts of climate change on agriculture)[https://agmip.org/agmip-crop-modeling-study-included-in-ipcc-ar6-syr/?et_fb=1]
+- Trade-offs between productivity and environmental impact, e.g.,
+  (here)[https://agmip.org/agmip-crop-modeling-study-included-in-ipcc-ar6-syr/?et_fb=1]
 
 ### Intro to FOA and related data on production, trade, nutrition, nutritional needs
 
@@ -253,15 +265,6 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
   biodiversity, ...). (&#x1F534; What are some good sources?)
 
 
-### Climate Smart Agriculture
-
-- e.g., Deloitte insight paper
-  "Transforming Food Systems with Farmers: A Pathway for the EU", April 2022;
-  available [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
-- e.g., EU website "[Climate Smart Agriculture](https://ec.europa.eu/eip/agriculture/en/news/climate-smart-agriculture)"
-- &#x1F534; Something about instrumentation for smart ag, e.g., styles of
-  smart ag (e.g., drip irrigation, precision fertilization), tools for measurement,
-  associated computing technologies ??
 
 ### Key Themes
 
@@ -298,6 +301,17 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
 - World Economic Forum on [why](https://www.weforum.org/agenda/2020/11/why-we-must-scale-up-climate-smart-agriculture-csa-climate-hunger-population-resilience/)
 - FAO [homepage on CSA](https://www.fao.org/climate-smart-agriculture/en/)
 - FAO {Climate Smart Agriculture Sourcebook](https://www.fao.org/climate-smart-agriculture-sourcebook/en)
+
+### Climate Smart Agriculture
+
+- e.g., Deloitte insight paper
+  "Transforming Food Systems with Farmers: A Pathway for the EU", April 2022;
+  available [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
+- e.g., EU website "[Climate Smart Agriculture](https://ec.europa.eu/eip/agriculture/en/news/climate-smart-agriculture)"
+- &#x1F534; Something about instrumentation for smart ag, e.g., styles of
+  smart ag (e.g., drip irrigation, precision fertilization), tools for measurement,
+  associated computing technologies ??
+
 
 ### Simultaneously optimizing productivity and carbon sequestion
 

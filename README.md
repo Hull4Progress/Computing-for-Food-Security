@@ -8,8 +8,8 @@ was offered at the University of California, Davis, during the Spring
 quarter, 2023.  
 
 This repository gives an overview of the materials used by the course.
-This follows the course presented at UC Davis, but has been updated to
-reflect some lessons learned and additional content.
+This follows the basic outline of the course presented at UC Davis, but has been updated to
+reflect some lessons learned and incorporate additional content.
 
 We are very interested in comments and feedback!  Please submit comments
 as new "Issues".
