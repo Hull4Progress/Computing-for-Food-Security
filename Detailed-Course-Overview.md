@@ -1,8 +1,9 @@
 # Computing for Food Security -- Course Overview
 
 
-The course is organized into 4 main sections:
-1. Food production and consumption, world-wide
+The course is organized into 5 sections:
+1. Course introducgtion and overview
+1. Food production and consumption, food insecurity, world-wide
 1. Forecasting agricultural productivity: Micro and Macro
 1. Agriculture and Climate Change
 1. Climate Smart Agriculture
@@ -17,9 +18,7 @@ In the outline below, a red cirle (&#x1F534;) indicates an area where
 I am still looking for appropriate materials, data or software tools...
 
 
-## 1. Food production and consumption, world-wide
-
-### Course Overview:
+## 1. Course introduction and overview (about 1 or 1.5 hours)
 
 - Socio-economic perspectives; Food (In)security
   - e.g., [UN Sustainable Goals](https://www.un.org/sustainabledevelopment/blog/2015/12/sustainable-development-goals-kick-off-with-start-of-new-year/); mission of [FAO](https://www.fao.org/home/en/)
@@ -30,16 +29,24 @@ I am still looking for appropriate materials, data or software tools...
 - Crop yield prediction, tools, e.g.
   - [APSIM](https://www.apsim.info/),
      [WOFOST](https://www.wur.nl/en/research-results/research-institutes/environmental-research/facilities-tools/software-models-and-databases/wofost.htm)
-  - Machine Learning approaches, e.g., (here)[https://www.nature.com/articles/s41598-020-80820-1],
-    (here)[https://reader.elsevier.com/reader/sd/pii/S2772375522000168],
-    (here)[https://www.sciencedirect.com/science/article/pii/S2772375522000168]
+  - Machine Learning approaches, e.g., [here](https://www.nature.com/articles/s41598-020-80820-1),
+    [here](https://reader.elsevier.com/reader/sd/pii/S2772375522000168),
+    [here](https://www.sciencedirect.com/science/article/pii/S2772375522000168)
   - Global gridded [soil](https://www.isric.org/explore/soilgrids) and
     [agro-ecological](https://gaez.fao.org/) data
 - Interplay of agriculture and climate change, e.g.,
-  (impacts of agriculture on climate)[https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-7/],
-  (impacts of climate change on agriculture)[https://agmip.org/agmip-crop-modeling-study-included-in-ipcc-ar6-syr/?et_fb=1]
+  [impacts of agriculture on climate](https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-7/),
+  [impacts of climate change on agriculture](https://agmip.org/agmip-crop-modeling-study-included-in-ipcc-ar6-syr/?et_fb=1)
 - Trade-offs between productivity and environmental impact, e.g.,
-  (here)[https://agmip.org/agmip-crop-modeling-study-included-in-ipcc-ar6-syr/?et_fb=1]
+  [here](https://agmip.org/agmip-crop-modeling-study-included-in-ipcc-ar6-syr/?et_fb=1)
+- Climate Smart Agriculture (CSA), e.g.,
+  [World Economic Forum](https://www.weforum.org/agenda/2020/11/why-we-must-scale-up-climate-smart-agriculture-csa-climate-hunger-population-resilience/),
+  [FAO homepage on CSA](https://www.fao.org/climate-smart-agriculture/en/),
+  [FAO Climate Smart Agriculture Sourcebook](https://www.fao.org/climate-smart-agriculture-sourcebook/en)
+
+
+
+## 2. Food production and consumption, food insecurity, world-wide
 
 ### Intro to FOA and related data on production, trade, nutrition, nutritional needs
 
