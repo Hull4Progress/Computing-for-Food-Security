@@ -13,12 +13,20 @@ with a global scope and much of it with fine granularity.
 
 This course
 provides a broad introduction to the area of food (in)security with an
-emphasis on: computational tools and techniques for understanding,
-visualizing and predicting current and future agricultural production,
-trade and needs; the interplay of agriculture, greenhouse gases and
-climate change; optimizing for simultaneous maximization of food
-production, carbon sequestration, and bio-diversity; and tools to
-support Climate Smart Agriculture.
+emphasis on:
+computational tools and techniques for understanding and 
+visualizing current and future agricultural production,
+trade and needs;
+short- and long-term crop yield forecasting leveraging
+crop simulation models and machine learning,
+along with
+remote sensing data and
+global gridded data for weather and soil;
+the interplay of agriculture, greenhouse gases and
+climate change;
+optimizing for simultaneous maximization of food
+production, carbon sequestration, and bio-diversity;
+and tools to support Climate Smart Agriculture.
 
 This course is intended for Computer Science students who have an
 interest in agriculture, climate change and/or in the UN Sustainability Goals around
@@ -34,7 +42,8 @@ Prerequisites: Undergraduate degree in Computer Science or similar
 field, including substantial programming experience and at least some
 experience with relational database management.  The course will be
 taught using a variety of Python-based tools, Postgres, and several
-application packages (including Protégé, Tableau, and APSIM), although
+application packages (including Tableau, APSIM, and possibly
+Protege), although
 students are welcome to code their assignments with other languages
 and packages if they choose.
 
