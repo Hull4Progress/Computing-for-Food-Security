@@ -95,16 +95,18 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
 - Use of Protege ontology tool to help visualize categorizations
 - Visualization using Tableau Public and/or DataWrapper
   - Importance of pre-processing data for use with these visualization tools
-- Student exercise (over first 2 or 3 weeks) is to download and organize the data,
-  ask an interesting question (e.g., given reduction of Ukraine's ag output due to
-  the war, what is impact on food and nutrition levels available to,
-  e.g., to the ountries in Middle Africa as compared with 2019
-  levels?) and produce some informative visualizations the communicate the answer.
-  Might also include fertiliser production and trade, if I can find appropriate data sets
+  - [Tableau Tips and Tricks](https://www.tableau.com/blog/7-tips-and-tricks-dashboard-experts)
+- Student exercise, broken into two pieces, is to explore food security issues for a country or region
+  by analyzing a join of two or three data sets
+  from [FAO data on production, trade, nutrition, food balances, food costs, ...](https://www.fao.org/faostat/en/#data)
+  and, optionally, related data sets (e.g., about country-level economies, civil strife).
+  Part one of the assignment is to identify and start to analyze the data,
+  and part two is to further analyze the data based on feedback, and create visualizations
+  using Tableau Public (or similar)
 
 
 
-## 2. Forecasting agricultural productivity: Micro and Macro
+## 3. Forecasting agricultural productivity: Micro and Macro
 
 
 ### Crop Forecast at the Micro Level: Crop Models and Simulation Systems
@@ -218,7 +220,7 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
 
 
 
-## 3. Agriculture and Climate Change
+## 4. Agriculture and Climate Change
 
 
 ### Overview of Climate Change: Shared Socioeconomic Pathways (SSPs) &amp; Relative Concentration Pathways (RCPs)
@@ -303,7 +305,7 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
 
 
 
-##  4. Climate Smart Agriculture (CSA)
+##  5. Climate Smart Agriculture (CSA)
 
 ### Introduction to CSA  
 
