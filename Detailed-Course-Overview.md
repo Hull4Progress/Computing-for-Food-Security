@@ -2,7 +2,7 @@
 
 
 The course is organized into 5 sections:
-1. Course introduction and overview (about 1 or 1.5 hours)
+1. Course introduction and overview (about 1.5 hours)
 1. Food production and consumption, food insecurity, world-wide
 1. Forecasting agricultural productivity: Micro and Macro
 1. Agriculture and Climate Change
@@ -29,16 +29,18 @@ I am still looking for appropriate materials, data or software tools...
 - Crop yield prediction, tools, e.g.
   - [APSIM](https://www.apsim.info/),
      [WOFOST](https://www.wur.nl/en/research-results/research-institutes/environmental-research/facilities-tools/software-models-and-databases/wofost.htm)
-  - Machine Learning approaches, e.g., [here](https://www.nature.com/articles/s41598-020-80820-1),
-    [here](https://reader.elsevier.com/reader/sd/pii/S2772375522000168),
-    [here](https://www.sciencedirect.com/science/article/pii/S2772375522000168)
+  - Machine Learning approaches, e.g.,
+    [Forecasting Corn Yield with ML Ensembles](https://www.frontiersin.org/articles/10.3389/fpls.2020.01120/full),
+    [Combining ML and crop modeling](https://www.nature.com/articles/s41598-020-80820-1), and
+    [ML for West African Countries](https://reader.elsevier.com/reader/sd/pii/S2772375522000168),
   - Global gridded [soil](https://www.isric.org/explore/soilgrids) and
     [agro-ecological](https://gaez.fao.org/) data
 - Interplay of agriculture and climate change, e.g.,
   [impacts of agriculture on climate](https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-7/),
   [impacts of climate change on agriculture](https://agmip.org/agmip-crop-modeling-study-included-in-ipcc-ar6-syr/?et_fb=1)
 - Trade-offs between productivity and environmental impact, e.g.,
-  [here](https://agmip.org/agmip-crop-modeling-study-included-in-ipcc-ar6-syr/?et_fb=1)
+  [Carbon Release vs. Ag Productivity](https://www.pnas.org/doi/10.1073/pnas.1011078107),
+  [Optimizing for Carbon Sequestration](https://doi.org/10.1038/s43247-022-0)
 - Climate Smart Agriculture (CSA), e.g.,
   [World Economic Forum](https://www.weforum.org/agenda/2020/11/why-we-must-scale-up-climate-smart-agriculture-csa-climate-hunger-population-resilience/),
   [FAO homepage on CSA](https://www.fao.org/climate-smart-agriculture/en/),
@@ -50,13 +52,18 @@ I am still looking for appropriate materials, data or software tools...
 
 ### Intro to FOA and related data on production, trade, nutrition, nutritional needs
 
+- [UN Sustainability Goals](https://sdgs.un.org/goals);
+  [FAO goals vis-a-vis UN Sustainability Goals](https://www.fao.org/sustainable-development-goals/indicators/en/)
 - Important data sets
   - [FAO data on production, trade, nutrition, food balances, food costs, ...](https://www.fao.org/faostat/en/#data)
   - Auxiliary data sets, e.g.,
     [UN Standard country and area codes (M49)](https://unstats.un.org/unsd/methodology/m49/overview/), 
     [FAO Central Product Classification (CPC) v2.1](https://unstats.un.org/unsd/classifications/unsdclassifications/cpcv21.pdf)
   - See also: [FAO methods and standards](https://www.fao.org/statistics/methods-and-standards/en/)
+  - Drill down: [FAO methodology for computing Food Balances](https://fenixservices.fao.org/faostat/static/documents/FBS/New%20FBS%20methodology.pdf); [Tufts page on Food Balance Sheets](https://inddex.nutrition.tufts.edu/data4diets/data-source/food-balance-sheets-fbs)
+- Illustration: [Impact of Ukraine war on food supply](https://www.washingtonpost.com/world/2022/06/15/ukraine-war-russia-grain-food-crisis-world-hunger/)
 - [Fertilizer and crop yield (intro)](https://thundersaidenergy.com/downloads/crop-production-how-much-does-nitrogen-fertilizer-increase-yields/)
+- [Food Loss and Waste](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
 - Nutrition in foods; going from food production/import to nutrition availability
   - Draw from pp. 19 and following from the book
     "Global Food Security" by Zhang-Yue Zhou (2020)
@@ -64,13 +71,7 @@ I am still looking for appropriate materials, data or software tools...
     (cf [2022 FAO report on The State of Food Security and Nutrition in the World](https://www.fao.org/documents/card/en/c/cc0639en))
   - &#x1F534; Some data set about nutrition in foods -- ??
 - &#x1F534; Some data set about country-level populations and nutritional needs -- ??
-- Intro to food loss and waste: e.g., worldwide about 15% of food is lost
-  from field to warehouse or processing, and another 15% is wasted from
-  retail to consumer; see [here](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
-
-### Key themes
-
-- Talk about challenges of gathering global-level data, and standardizing across data sets
+- Challenges of gathering global-level data, and standardizing across data sets
   - e.g., challenge of harmonizing production and trade data sets
   - e.g., [FAO Zambia training deck](https://www.fao.org/fileadmin/templates/ess/
 CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
@@ -78,7 +79,7 @@ CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
   [here](https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/25f5a77c-0974-4dab-a21d-15e5a541c0bf/details).
   See also the Clickable SDMX Interface to the information model
   [here](https://statswiki.unece.org/display/ClickSDMX/Clickable+SDMX+Home).
-- Talk about role of Computer Scientists in the larger ecosystem of achieving social goals
+- Role of Computer Scientists in the larger ecosystem of achieving FAO (and related) goals
   (We are an important but relatively small part of the overall ecosystem!)
   - &#x1F534; Looking for good image/description of overall FOA
     strategy/process, that shows role of data collection, data analysis
