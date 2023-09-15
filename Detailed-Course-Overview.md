@@ -3,15 +3,19 @@
 
 The course is organized into 5 sections:
 1. Course introduction and overview (about 1.5 hours)
-1. Food production and consumption, food insecurity, world-wide
+1. Global initiatives and data in support of Food Security
 1. Forecasting agricultural productivity: Micro
 1. Agriculture and Climate Change
 1. Forecasting agricultural productivity: Macro
 1. Climate Smart Agriculture
 
-The course as described here is for a 15-week semester, assuming 3 or 4 hours
-of contact time per week. The contact time will be split between
-traditional lectures and coding labs that review example code snippets.  Some content
+The course as described here is intended for senior and/or graduate-level CS students.
+It assumes a 15-week semester, with 2.5 hours
+of lecture time per week. The lecture time will be split between
+traditional lectures (including some class discussion);
+coding labs that review example code snippets; and student presentations
+about team software projects.
+Some content
 will be dropped if the course is presented in a 10-week quarter.
 
 
@@ -52,7 +56,7 @@ I am still looking for appropriate materials, data or software tools...
 
 
 
-## 2. UN FAO; Food production, consumption and balances; Food insecurity around the globe
+## 2. Global initiatives and data in support of Food Security
 
 - [UN Sustainability Goals](https://sdgs.un.org/goals)
 - Intro to FAO, e.g.,
@@ -76,6 +80,11 @@ I am still looking for appropriate materials, data or software tools...
     [2022 FAO report on The State of Food Security and Nutrition in the World](https://www.fao.org/documents/card/en/c/cc0639en)),
     [UN Decade of Action on Nutrition (2016 to 2025)](https://cdn.who.int/media/docs/default-source/nutritionlibrary/decade-of-action-on-nutrition/work_programme_nutrition_decade.pdf) 
 - Challenges of gathering global-level data, and standardizing across data sets
+  - Methods for data collection, e.g.,
+    [FAO Data Collection Questionnaires](https://www.fao.org/statistics/data-collection/en/);
+    [FAO New Food Balances: Description of utilization variables](https://fenixservices.fao.org/faostat/static/documents/FBS/New%20FBS%20methodology.pdf)
+  - Principles of creating statistical classifications:
+    [CPC implementation and other activities on classifications in FAO](https://unstats.un.org/unsd/classifications/expertgroup/egm2015/ac289-16.PDF)
   - Approaches to harmonizing production and trade data sets, e.g., 
        [FAO Guidlines for Ag Statistics](https://www.fsinplatform.org/sites/default/files/resources/files/Guidelines-for-Int-Classifications-on-Agricultural-Statistics-web.pdf)
   - [FAO Zambia training deck](https://www.fao.org/fileadmin/templates/ess/CountrySTAT/Zambia_training_2012/Classification_Correspondence_Table.pdf)
@@ -83,39 +92,49 @@ I am still looking for appropriate materials, data or software tools...
   "[The SDMX Information Model](https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/25f5a77c-0974-4dab-a21d-15e5a541c0bf/details).)"
      See also the [Clickable SDMX Interface to the information model](https://statswiki.unece.org/display/ClickSDMX/Clickable+SDMX+Home)
 - Additional Topics
-  - [Impact of Ukraine war on food supply](https://www.washingtonpost.com/world/2022/06/15/ukraine-war-russia-grain-food-crisis-world-hunger/)
-  - [Fertilizer and crop yield (intro)](https://thundersaidenergy.com/downloads/crop-production-how-much-does-nitrogen-fertilizer-increase-yields/)
-  - [Food Loss and Waste](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
+  - US Global Change Research Program: [Impacts of Climate Change on Food Safety, Nutrition and
+           Distribution (2016)](https://health2016.globalchange.gov/low/ClimateHealth2016_07_Food_small.pdf)
+  - Impact of Ukraine war on food supply, e.g.,
+    - FAO: [Note on the impact of the war on food security in
+            Ukraine 20 July 2022](https://www.fao.org/3/cc1025en/cc1025en.pdf)
+    - Washington Post July 22, 2023: [5 countries hit hard by the grain crisis in
+         Ukraine](https://www.washingtonpost.com/world/2022/06/15/ukraine-war-russia-grain-food-crisis-world-hunger/)
+    - Statista August 2, 2022: [Where Food Imports Are Affected in the Ukraine Crisis](https://www.statista.com/chart/27892/share-of-food-imports-by-country-affected-by-by-food-export-bans/)
+  - Intro to fertilization and yield: Thunder Said Energy [Crop production: how much does nitrogen fertilizer increase yields](https://thundersaidenergy.com/downloads/crop-production-how-much-does-nitrogen-fertilizer-increase-yields/)
+  - McKinsey on Food Loss and Waste: [Reducing Food Loss](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
   - Role of Data and Computer Scientists in the larger ecosystem of achieving FAO (and related) goals, e.g.,
      [FAO Strategic Framework](https://www.fao.org/about/strategy-programme-budget/strategic-framework/en/)
   
  
-#### Computing illustrations and exercise
+#### Computing illustrations
 
-- Bringing FAO data (e.g., production, trade, food balances, food insecurity) into a database management
-  system, including "normalization", using Postgres, Python, Jupyter, DBeaver
-  (students may use their favorite tools)
+- Bringing FAO data (e.g., production, trade, food balances, food insecurity) into a persistent store
+  including "normalization", using, e.g., Postgres, DBeaver, Python, Jupyter 
   - Challenges of integrating across diverse datasets
-- Possibly: Use of Protege ontology tool to help visualize categorizations
 - Visualization using Tableau Public 
   - Importance of pre-processing data for use with these visualization tools
   - [Tableau Tips and Tricks](https://www.tableau.com/blog/7-tips-and-tricks-dashboard-experts)
-- Student exercise, broken into two pieces, is to explore food security issues for a country or region
+- Possibly: Use of Protege ontology tool to help visualize categorizations
+
+#### Student exercises
+- Exploration of food security issues for a country or region
   by analyzing a join of two or three data sets
   from [FAO data sets](https://www.fao.org/faostat/en/#data)
-  and, optionally, related data sets (e.g., country-level populations, country-level economies, civil strife).
-  Part one of the assignment is to identify and start to analyze the data,
-  and part two is to further analyze the data based on feedback, and create visualizations
+  and/or related data sets (e.g., country-level populations, country-level economies, civil strife).
+  - This exercise is broken into 2 parts: Part one is to identify and start to analyze the data,
+  and part two is to further analyze the data based on feedback, and to create visualizations
   using Tableau Public or similar.
+  - Note: students may use their favorite tools; for example, they can use Postgres for most of their
+    persistent data storage and data manipulation, or they can use csv files for
+    persistent data storage and
+    rely on the Python pandas package for data joins and data manipulation
 
 
 
 ## 3. Forecasting agricultural productivity: Micro
 
-
-### Crop Forecast at the Micro Level: Crop Models and Simulation Systems
-
 - Introduction to Crop Forecast Models
+  - The importance of modeling in Computer Science, e.g., UML, Entity-Relationship data modeling
   - Chapter 9, "Fundamental concepts of crop models illustrated by a comparative
      approach" by N. Brisson, J. Wery and K. Boote, in the book "[Working
      with Dynamic Crop Models: Evaluation, Analysis, Parameterization,
@@ -126,31 +145,46 @@ I am still looking for appropriate materials, data or software tools...
      from the "Working with Dynamic Crop Models ..." 
      book just mentioned, with some extensions
 
-- Introduction to APSIM
-  - APSIM as a representative simulation system.  Goal is that students will become
-    beginning users of the system, and be able to create some simple crop simulations,
+- Introduction to APSIM, a representative simulation system.  Goal is that students will become
+    beginning users of the system, and be able to create some simple crop simulation,
     e.g., for a given region and a given climate situation (e.g., historical or future)
   -  “[Plant Modeling Framework: Software for building and running crop
      models on the APSIM platform]((https://www.sciencedirect.com/science/article/pii/S1364815214002588)” 
      by H.E. Brown et. al., Environmental Modeling & Software 62, 385-398,
   - [APSIM Next Generation home page](https://apsimnextgeneration.netlify.app/)
 
-- Weather and Soil
-  - Weather properties and impacts, e.g.,
-    - Solar irradiance, including 
+- Principles and Data about weather properties and impacts, e.g.,
+  - Solar irradiance, including 
         [Photosynthetically Active Radiation](https://www.spar.msstate.edu/class/EPP-2008/Chapter%201/Solar%20Radiation.pdf)
-  - Soil properties and impacts, e.g., [FAO on Soil and Water](https://www.fao.org/3/R4082E/r4082e03.htm),
-    including mineral content, soil organic carbon, cation exchange capacity, ...
-  
+  - [NASA POWER](https://power.larc.nasa.gov/) (global) and [SILO](https://www.longpaddock.qld.gov.au/silo/about/) (Australia only)
+    gridded global data sets
+  - Tangent: New paints can help shed heat from the planet
+    - [Washington Post (2023): We are building our roofs wrong ...](https://www.washingtonpost.com/climate-environment/2023/06/20/cool-roof-coatings-global-warming/)
+    - [Lawrence Berkeley Lab: Cool Roofs](https://heatisland.lbl.gov/coolscience/cool-roofs)
+    - [Geopolymer-based sub-ambient daytime radiative cooling coating (2022)](https://onlinelibrary.wiley.com/doi/full/10.1002/eom2.12284); 
+        see also
+        [Advance Science News (2022): New material is a game changer in radiative cooling](https://www.advancedsciencenews.com/new-material-is-a-game-changer-in-radiative-cooling/)
 
-	       
+- Principles and Data about soil properties and impacts, e.g., 
+  - [FAO on Soil and Water](https://www.fao.org/3/R4082E/r4082e03.htm),
+      including mineral content, soil organic carbon, cation exchange capacity, ...
+  - Soil as a Natural Resource: 
+    [FAO Status of the World’s Soil Resources (SWSR) (2015)](https://www.fao.org/documents/card/en/c/c6814873-efc3-41db-b7d3-2081a10ede50/)
+  - [A protocol to build soil descriptions for APSIM simulations (2021)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8720820/)
+  - FAO GAEZ soil classification framework:
+      [FAO "Global Agro Ecological Zones v4 MODEL DOCUMENTATION" (2021)](https://www.fao.org/geospatial/resources/detail/en/c/1410694/); (see also [GAEZ Data Viewer](https://gaez.fao.org/pages/data-viewer)
+  - [ISRIC SoilGrids](https://www.isric.org/explore/soilgrids/); see also
+      [SoilGrids data portal](https://soilgrids.org/)
+      and [ISRIC Data Hub](https://data.isric.org/geonetwork/srv/eng/catalog.search#/home)
+
+  
 - Overview of other simulation models, e.g.,
-  - [WOFOST](https://www.wur.nl/en/research-results/research-institutes/environmental-research/facilities-tools/software-models-and-databases/wofost.htm)
   - "[Comparing the performance of 11 crop simulation models in
     predicting yield response to nitrogen fertilization](https://hal.science/hal-01413572)" Tapio J. Salo,
     Taru Palosuo, Kurt Christian Kersebaum, Claas Nendel, Carlos
     Angulo, Frank Ewert, Marco Bindi, Pierluigi Calanca, Tommy Klein,
     Marco Moriondo, et al.
+  - [WOFOST](https://www.wur.nl/en/research-results/research-institutes/environmental-research/facilities-tools/software-models-and-databases/wofost.htm)
 
 
 - Validation of Crop Models
@@ -168,17 +202,14 @@ I am still looking for appropriate materials, data or software tools...
     including validation info (e.g., here's the pdf for [Wheat](https://builds.apsim.info/api/nextgen/docs/Wheat.pdf)). These pdf's are kept up-to-date.
 
 
-#### Computing illustrations and exercises
+#### Computing illustrations
 
-- Key data sets and tools for creating APSIM simulations:
-  - Soil: [ISRIC SoilGrids](https://www.isric.org/explore/soilgrids/)
-    - [SoilGrids data portal](https://soilgrids.org/);
-      see also [here](https://data.isric.org/geonetwork/srv/eng/catalog.search#/home)
-    - [R-based tool to fetch soil profiles for APSIM](https://search.r-project.org/CRAN/refmans/apsimx/html/get_isric_soil_profile.html)
-  - Weather/Climate: 
-    - [NASA POWER](https://power.larc.nasa.gov/)
-    - [SILO](https://www.longpaddock.qld.gov.au/silo/about/) (Australia only)
-    - Processing tool to format weather data for APSIM: [BestiaPop](https://github.com/JJguri/bestiapop) 
+- Selected steps in the creation of a crop yield forecast system from scratch, following examples/discussion from
+    Section 1.2 and Chapter 9 of
+   the book 
+     "[Working
+     with Dynamic Crop Models: Evaluation, Analysis, Parameterization,
+     and Applications](http://ndl.ethernet.edu.et/bitstream/123456789/43022/1/53.pdf)”
 
 - APSIM
   - There are many YouTube videos for APSIM NextGen, including
@@ -189,81 +220,85 @@ I am still looking for appropriate materials, data or software tools...
   - The lectures include an illustration of building a simulation in APSIM, for a given crop
     and given location
 
-- Student Exercise: Modeling with APSIM (part 1).  In this exercise students will pick
+- Key data sets and tools for creating APSIM simulations:
+  - Soil: [ISRIC SoilGrids](https://www.isric.org/explore/soilgrids/)
+    - [SoilGrids data portal](https://soilgrids.org/);
+      see also [here](https://data.isric.org/geonetwork/srv/eng/catalog.search#/home)
+    - [R-based tool to fetch soil profiles for APSIM](https://search.r-project.org/CRAN/refmans/apsimx/html/get_isric_soil_profile.html)
+  - Weather/Climate: 
+    - [NASA POWER](https://power.larc.nasa.gov/)
+    - Processing tool to format weather data for APSIM: [BestiaPop](https://github.com/JJguri/bestiapop) 
+
+#### Student Exercises
+
+- Creation of simplified crop simulation modeling tool, expanding on illustrations and example code 
+   presented in the lectures
+
+- Modeling with APSIM (Part 1): Forecasting crop yields in a selected region.  
+    In this exercise students will pick
     some small region (e.g., 100km x 100km) and some crops grown in the region, and
-    create APSIM simulations of predicted crop yield for different places in the region.
-    A key aspect will be incorporating soil data and historical weather data for the region.
+    create APSIM simulations of predicted crop yield for different places in the region
+    using soil data and recent historical weather data.
 
 
 ## 4. Agriculture and Climate Change
 
 
-### Overview of Climate Change
+#### Introduction to Climate Change Science
 
 - Selections from [IPCC Sixth Assessment Report (2021)](https://www.ipcc.ch/report/ar6/wg1/)
   - [Summary for Policy Makers](https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf)
-  [Technical Summary](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_TS.pdf)
-  - e.g., History of GHG emissions; Different kinds of GHG's; Historical impacts on climate;  "Climatic impact-drivers (CIDs)"
+  [Technical Summary](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_TS.pdf),
+  e.g., History of GHG emissions; Different kinds of GHG's; Historical impacts on climate;  "Climatic impact-drivers (CIDs)"
   - Interesting tool: [IPCC WGI Interactive Atlas](https://interactive-atlas.ipcc.ch/)
 - IIASA [Shared Socioeconomic Pathways Scenario Database web pages](https://iiasa.ac.at/models-tools-data/ssp)
   - Shared Socioeconomic Pathways (SSPs) &amp; Relative Concentration Pathways (RCPs)
   - Radiative Forcing (e.g., see [MIT Explainers page on radiative forcing](https://climate.mit.edu/explainers/radiative-forcing))
-- Carbon cycles and carbon sequestration
+- [United Nations Framework Convention on Climate Change (UFCCC) website](https://unfccc.int/)
+- Carbon cycles and carbon sequestration: 
    [NASA site on The Carbon Cycle](https://earthobservatory.nasa.gov/features/CarbonCycle)
   - See also
    [US EPA on Climate Change Indicators](https://www.epa.gov/climate-indicators/climate-change-indicators-atmospheric-concentrations-greenhouse-gases);
    [Carleton College on Carbon in the Atmosphere](https://serc.carleton.edu/eslabs/carbon/3b.html)
   - Digression: [Wikipedia on Major Ice Ages](https://en.wikipedia.org/wiki/Timeline_of_glaciation)
-  - A possibility here is the article "ClimateBench v1.0: A Benchmark
+  - ["ClimateBench v1.0: A Benchmark
     for Data-Driven Climate Projections", D. Watson-Parris et. al.,
-    Journal of Advances in Modeling Earth Systems (JAMES), Sept, 2022;
-    available
-    [here](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954)
-    - cf. the [ClimateBench github page](https://github.com/duncanwp/ClimateBench),
-      which might have useful software (&#x1F534; Is it relatively easy to learn
-      how to use for some basic illsutrations?)
+    Journal of Advances in Modeling Earth Systems (JAMES), Sept, 2022](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954); see also the [ClimateBench github page](https://github.com/duncanwp/ClimateBench)
+  - Digression: [Annual cycle of atmospheric CO2 variation](https://earthobservatory.nasa.gov/features/CarbonCycle 
 
 
-### Basics of Impacts of Climate Change on Agriculture
+#### Agricultural, Climate Change and the Environment
 
 
-- &#x1F534; What are some good articles or websites about this?
-  - Perhaps, material from [IPCC Sixth Assessment -- Technical Report](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_TS.pdf)?
-- &#x1F534; Want data about weather for a given region, and ability
-  to create .met file (and perhaps others) from it
-- Will illustrate by using APSIM to model impacts of climate change (see below),
-  and hopefully at a macro level also
-
-### Basics of Agricultural impact on GHG's and Climate Change
-
-
-- GHG output from ag industry
-  - e.g. [UN Land Use, Land Use Change and Forestry (LULUCF)
+- Agriculture, Forestry and Other Land Uses (AFOLU): Chapter 7 (pp. 747-860) from 
+     [IPCC Sixth Assessment -- Full Report (2022)](https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_FullReport.pdf);
+     see also [Summary for Policy Makers and Technical Summary]((https://www.ipcc.ch/report/ar6/wg3/))
+- Agriculture and GHG's
+  - FAO [Greenhouse gas emissions from agrifood systems (2000 - 2020)](https://www.fao.org/3/cc2672en/cc2672en.pdf)
+  - [Ancient Farmers Spared Us From 
+     Glaciers ...](https://www.sciencedaily.com/releases/2018/09/180906141507.htm); 
+    see also 
+    [Glacial Inception in Marine Isotope Stage 19 ...](https://www.nature.com/articles/s41598-018-28419-5) 
+  - See also [UN Land Use, Land Use Change and Forestry (LULUCF)
     website](https://unfccc.int/topics/land-use/workstreams/land-use--land-use-change-and-forestry-lulucf)
-    talks about how AFOLU accounted for about 23% of anthropoorphic
-    GHG emeissions 2007-2016
-  - &#x1F534; Other sources/articles?
-- Carbon sequestration
-  - e.g., again [UN Land Use, Land Use Change and Forestry (LULUCF) website](https://unfccc.int/topics/land-use/workstreams/land-use--land-use-change-and-forestry-lulucf)
-  - Something about Soil Organic Carbon (?), e.g.,
-    FAO document "Soil Organic Carbon: The Hidden Potential" (2017)
-    available [here](https://www.fao.org/3/a-i6937e.pdf)
-  - &#x1F534; Other??
-- Something about other environmental impacts (e.g., fertilizer runoff and eutrophication,
-  biodiversity, ...). (&#x1F534; What are some good sources?)
+- Carbon sequestration in agriculture
+  - [UN Land Use, Land Use Change and Forestry (LULUCF) website](https://unfccc.int/topics/land-use/workstreams/land-use--land-use-change-and-forestry-lulucf)
+  - FAO [Soil Organic Carbon: The Hidden Potential (2017)](https://www.fao.org/3/a-i6937e.pdf)
+  - USDA [Grassland Carbon Management](https://www.fs.usda.gov/ccrc/topics/grassland-carbon-management)
+- Fertilizer runnoff and eutrophication
+  - EPA: [Nutrient Polution: The Sources and Solutions: 
+            Agriculture](https://www.epa.gov/nutrientpollution/sources-and-solutions-agriculture)
+  - [Eutrophication: An Ecological Vision (2005)](https://link.springer.com/article/10.1663/0006-8101(2005)071[0449:EAEV]2.0.CO;2#citeas)
+  - [Recent advances in control technologies for non-point source pollution with nitrogen
+     and phosphorous from agricultural runoff: current practices and future prospects
+     (2020)](https://applbiolchem.springeropen.com/articles/10.1186/s13765-020-0493-6)
 
+- Impacts of Climate Change on Agriculture
+  - EPA: [Climate Change Impacts on Agriculture and Food Supply](https://www.epa.gov/climateimpacts/climate-change-impacts-agriculture-and-food-supply)
+  - US Global Change Research Program: [Impacts of Climate Change on Food Safety, Nutrition and
+           Distribution (2016)](https://health2016.globalchange.gov/low/ClimateHealth2016_07_Food_small.pdf)
 
-
-### Key Themes
-
-- Importance of our understanding of both agricultural productivity and possible
-  climate change pathways as the basis for pro-actively working towards
-  mitigation of the climate change impacts
-- The challenges of moving an industry, in this case agriculture, in a direction
-  that will mitigate climate change impacts, in terms of public policy (government
-  incentives, etc.), stakeholder education, large and small landholder investments, ...
-
-#### Computing illustrations and exercises
+#### Computing illustrations
 
 - Working with [FAO GAEZ data](https://gaez.fao.org/)
   - [GAEZ data viewer](https://gaez.fao.org/pages/data-viewer): Tabs available on
@@ -273,39 +308,38 @@ I am still looking for appropriate materials, data or software tools...
   - Working with raster data
     - [Rasterio](https://rasterio.readthedocs.io/en/stable/): Accessing data in raster files
     - [GDAL](https://gdal.org/): Translator library for raster and vector geospatial data formats
+- Creating maps with a Geographic Information System (GIS)
   - [QGIS](https://www.qgis.org/en/site/):
-        An open-source Geographic Information System (GIS)
+        An open-source Geographic Information System
   - [Natural Earth](https://www.naturalearthdata.com/): Open source map data,
-        including, e.g., maps with country available 
-        [here](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+        including, e.g., 
+        [maps for countries, states/provinces, developed areas](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
   - See also [Ryan Abernathey's Tutorial on Python Cartopy package](https://rabernat.github.io/research_computing_2018/maps-with-cartopy.html)
 
+- Use of APSIM to illustrate how climate change would affect ag production
+  at a fairly localized scale. 
+  Using existing soil data, and translating various climate change weather forecasts
+  into .met files
 
-XXXXXXXXXXXXXXXx
+#### Student Exercise
 
-- Use APSIM to illustrate how climate change would affect ag production
-  at a fairly localized scale.  Need to translate various climate change weather predictions
-  into .met files?
-  - cf APSIM example on "Continuous Wheat with Climate Change";
-    available
-    [here](https://www.apsim.info/support/apsim-training-manuals/climate-change/);
-    (&#x1F534; However, this is for APSIM Classic; how to convert
-    into APSIM NextGen?)
-
-- Student Exercise: Modeling with APSIM (part 2) -- incorporating climate change.
+-  Modeling with APSIM (part 2): Incorporating climate change.
     In this exercise students extend their previous modeling with APSIM
     to incorporate the impact of projected climate change.
     In particular, students will use the Agro-climatic Resources tab
     within the [GAEZ Data Portal](https://gaez.fao.org/pages/data-viewer)
-    about future weather projectionsto create simulated .met files for
+    about future weather projections to create simulated .met files for
     use in their APSIM models.  The idea is to develop examples of
-    how climate change might impact yields of specific crops in specific yields.
+    how climate change might impact yields of specific crops in specific regions,
+    and compare with forecasts based on recent historical weather.
 
+
+XXXXXXXXXXXXXXXx
 
 
 ## 5. Forecasting agricultural productivity: Macro
 
-### Crop Forecast at the Macro Level
+#### Crop Forecast at the Macro Level
 
 
 - Remote Sensing, including interpretation and interpolation
@@ -340,13 +374,23 @@ XXXXXXXXXXXXXXXx
 
 ## 6. Climate Smart Agriculture (CSA)
 
-### Introduction to CSA  
+#### Key Themes
+
+- Importance of our understanding of both agricultural productivity and possible
+  climate change pathways as the basis for pro-actively working towards
+  mitigation of the climate change impacts
+- The challenges of moving an industry, in this case agriculture, in a direction
+  that will mitigate climate change impacts, in terms of public policy (government
+  incentives, etc.), stakeholder education, large and small landholder investments, ...
+
+
+#### Introduction to CSA  
 
 - World Economic Forum on [why](https://www.weforum.org/agenda/2020/11/why-we-must-scale-up-climate-smart-agriculture-csa-climate-hunger-population-resilience/)
 - FAO [homepage on CSA](https://www.fao.org/climate-smart-agriculture/en/)
 - FAO {Climate Smart Agriculture Sourcebook](https://www.fao.org/climate-smart-agriculture-sourcebook/en)
 
-### Climate Smart Agriculture
+#### Climate Smart Agriculture
 
 - e.g., Deloitte insight paper
   "Transforming Food Systems with Farmers: A Pathway for the EU", April 2022;
@@ -357,7 +401,7 @@ XXXXXXXXXXXXXXXx
   associated computing technologies ??
 
 
-### Simultaneously optimizing productivity and carbon sequestion
+#### Simultaneously optimizing productivity and carbon sequestion
 
 - "Trading carbon for food: Global comparison of carbon stocks
   vs. crop yields on agricultural land, Paul C. West et. al.;
@@ -369,14 +413,14 @@ XXXXXXXXXXXXXXXx
   EARTH & ENVIRONMENT; (2022)3:49, available
   [here](https://doi.org/10.1038/s43247-022-00360-6)
 
-### Digitized/Precision Farming Practices
+#### Digitized/Precision Farming Practices
 
 - "Transforming Food Systems with Farmers: A Pathway for the EU", World 
   Economic Forum, Deloitte, NTT Data, available
   [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
 
 
-### Example: Trade-offs involving Nitrogen Fertilization
+#### Example: Trade-offs involving Nitrogen Fertilization
 
 - “Exploring Trade-Offs Between Profit, Yield, and the Environmental
   Footprint of Potential Nitrogen Fertilizer Regulations in the US
@@ -391,7 +435,7 @@ XXXXXXXXXXXXXXXx
 
 
 
-### Key Themes
+#### Key Themes
 
 - The optimization study on productivity and carbon sequestration
   is "academic" in the sense that it
@@ -403,7 +447,7 @@ XXXXXXXXXXXXXXXx
 - Studies that will help guide public policy bring together a broad array of specialties.
 
 
-### There will probably not be a programming exercise with this topic area
+#### Note: There will not be a programming exercise with this topic area
 
 
 

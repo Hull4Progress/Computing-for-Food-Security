@@ -28,7 +28,8 @@ optimizing for simultaneous maximization of food
 production, carbon sequestration, and bio-diversity;
 and tools to support Climate Smart Agriculture.
 
-This course is intended for Computer Science students who have an
+This course is intended for Computer Science students at the senior and/or graduate level
+who have an
 interest in agriculture, climate change and/or in the UN Sustainability Goals around
 ending Food Insecurity.  It is hoped that the course will give
 students a broad understanding of the area, and if they want to go
