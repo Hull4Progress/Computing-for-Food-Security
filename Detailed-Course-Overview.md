@@ -91,6 +91,7 @@ I am still looking for appropriate materials, data or software tools...
   - [Statistical Data and Metadata eXchange (SDMX)](https://sdmx.org/) and the training book
   "[The SDMX Information Model](https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/25f5a77c-0974-4dab-a21d-15e5a541c0bf/details).)"
      See also the [Clickable SDMX Interface to the information model](https://statswiki.unece.org/display/ClickSDMX/Clickable+SDMX+Home)
+
 - Additional Topics
   - US Global Change Research Program: [Impacts of Climate Change on Food Safety, Nutrition and
            Distribution (2016)](https://health2016.globalchange.gov/low/ClimateHealth2016_07_Food_small.pdf)
@@ -103,7 +104,8 @@ I am still looking for appropriate materials, data or software tools...
   - Intro to fertilization and yield: Thunder Said Energy [Crop production: how much does nitrogen fertilizer increase yields](https://thundersaidenergy.com/downloads/crop-production-how-much-does-nitrogen-fertilizer-increase-yields/)
   - McKinsey on Food Loss and Waste: [Reducing Food Loss](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/reducing-food-loss-what-grocery-retailers-and-manufacturers-can-do)
   - Role of Data and Computer Scientists in the larger ecosystem of achieving FAO (and related) goals, e.g.,
-     [FAO Strategic Framework](https://www.fao.org/about/strategy-programme-budget/strategic-framework/en/)
+    - [FAO Strategic Framework](https://www.fao.org/about/strategy-programme-budget/strategic-framework/en/)
+    - Tackling the Digital Divide in Agriculture: [CGIAR Digital Innovation Initiative](https://www.cgiar.org/initiative/digital-innovation/?section=about)
   
  
 #### Computing illustrations
@@ -121,13 +123,14 @@ I am still looking for appropriate materials, data or software tools...
   by analyzing a join of two or three data sets
   from [FAO data sets](https://www.fao.org/faostat/en/#data)
   and/or related data sets (e.g., country-level populations, country-level economies, civil strife).
-  - This exercise is broken into 2 parts: Part one is to identify and start to analyze the data,
-  and part two is to further analyze the data based on feedback, and to create visualizations
-  using Tableau Public or similar.
+  - This exercise is broken into 2 parts:
+    - Part one is to identify and start to analyze the data,
+    - Part two is to further analyze the data based on feedback, and to create visualizations
+      using Tableau Public or similar.
   - Note: students may use their favorite tools; for example, they can use Postgres for most of their
     persistent data storage and data manipulation, or they can use csv files for
     persistent data storage and
-    rely on the Python pandas package for data joins and data manipulation
+    rely on the Python pandas package for data manipulation
 
 
 
