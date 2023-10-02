@@ -1,7 +1,8 @@
+
 # Computing for Food Security -- Course Overview
 
 
-The course is organized into 5 sections:
+The course is organized into 6 sections:
 1. Course introduction and overview (about 1.5 hours)
 1. Global initiatives and data in support of Food Security
 1. Forecasting agricultural productivity: Micro
@@ -11,7 +12,9 @@ The course is organized into 5 sections:
 
 The course as described here is intended for senior and/or graduate-level CS students.
 It assumes a 15-week semester, with 2.5 hours
-of lecture time per week. The lecture time will be split between
+of lecture time per week, or a 10-week quarter with 3 to 4 hours of lecture
+time per week.
+The lecture time will be split between
 traditional lectures (including some class discussion);
 coding labs that review example code snippets; and student presentations
 about team software projects.
@@ -19,8 +22,6 @@ Some content
 will be dropped if the course is presented in a 10-week quarter.
 
 
-In the outline below, a red cirle (&#x1F534;) indicates an area where
-I am still looking for appropriate materials, data or software tools...
 
 
 ## 1. Course introduction and overview (about 1 or 1.5 hours)
@@ -337,45 +338,87 @@ I am still looking for appropriate materials, data or software tools...
     and compare with forecasts based on recent historical weather.
 
 
-XXXXXXXXXXXXXXXx
-
-
 ## 5. Forecasting agricultural productivity: Macro
 
-#### Crop Forecast at the Macro Level
+#### Intro to applied machine learning (this material will be interleaved with material from the next subsection)
+
+- Cross Industry Standard Process for Data Mining (CRISP-DM), e.g., 
+    [from healthcare](https://www.researchgate.net/publication/228651042_Specialised_Tools_for_Automating_Data_Mining_for_Hospital_Management)
+- Representative ML pipelines
+  - [Generic](https://ml-ops.org/content/end-to-end-ml-workflow)
+  - [For crop forecast](https://reader.elsevier.com/reader/sd/pii/S2772375522000168)
+- Selections from [The Elements of Statistical Learning: Data Mining, Inference, and Prediction, by Hastie, Tibshirani, Friedman, 2nd Edition, 12th printing (2017)](https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf)
+  - Overview of Supervised Learning (see chapters 1 and 2)
+  - Linear methods for regression (see chapter 3); see also 
+     [analyticsvidhya on gradient descent](https://www.analyticsvidhya.com/blog/2020/10/how-does-the-gradient-descent-algorithm-work-in-machine-learning/)
+  - Random Forest (see chapter 15)
+  - Boosting (see chapter 10), e.g., [XGBoost](https://xgboost.readthedocs.io/en/stable/tutorials/model.html),
+      LightGBM
+  - Neural Networks (see chapter 11); see also
+    - [ML for Beginners: An Introduction to Neural Networks (2019)](https://victorzhou.com/blog/intro-to-neural-networks/)
+    - See also these neural network playgrounds:
+        [tensorflow](https://playground.tensorflow.org/),
+        [karpathy](https://cs.stanford.edu/people/karpathy/convnetjs/index.html)
+
+#### Machine Learning for crop yield forecast: Selected papers (Part 1)
+- [Coupling machine learning and crop modeling improves crop yield prediction in the US Corn 
+      Belt (2021)](https://www.nature.com/articles/s41598-020-80820-1), including discussion of:
+  - Data pre-processing
+  - Overfitting & Feature engineering
+  - Feature reduction & Permutation importance
+  - Hyperparameter selection, see, e.g., 
+      [Hyperparameter Tuning](https://medium.com/analytics-vidhya/hyperparameters-80cb4f442e5),
+      [Bayesian Hyperparameter Optimization](https://towardsdatascience.com/a-conceptual-explanation-of-bayesian-model-based-hyperparameter-optimization-for-machine-learning-b8172278050f)
+  - [Ensemble Models](https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/)
+  - Metrics for ML performance, including RMSE, RRMSE, Coefficient of determination (R^2), MBE
+- [A CNN-RNN Framework for Crop Yield Prediction](https://www.frontiersin.org/articles/10.3389/fpls.2019.01750/full)
+
+#### Remote Sensing for crop yield analysis
+- Intro to remote sensing satellites, e.g., 
+   [Landsat](https://www.nasa.gov/mission_pages/landsat/overview/index.html),
+   [Sentinel 1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1),
+   [Sentinel 2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
+- [Sun Synchronous Orbits](https://en.wikipedia.org/wiki/Sun-synchronous_orbit)
+  - [Orbital coverage of Sentinel-2](https://www.esa.int/ESA_Multimedia/Videos/2016/08/Sentinel-2_global_coverage)
+- Sensor wavelengths, indexes (combinations of wavelengths), e.g., 
+  - [Sentinel 2 Bands and Combinations](https://gisgeography.com/sentinel-2-bands-combinations/))
+  - [GISGeography on Spectral Bands in Remote Sensing](https://gisgeography.com/spectral-signature/)
+  - [USDS Spectroscopy Lab](https://www.usgs.gov/labs/spectroscopy-lab)
+- [Image Classification Techniques](https://gisgeography.com/image-classification-techniques-remote-sensing/)
+
+#### Machine Learning for crop yield forecast: Selected papers (Part 2)
+- [Crop yield prdiction based on machine learning models: Case of West African 
+     Countries (2022)](https://reader.elsevier.com/reader/sd/pii/S2772375522000168)
+- [Smallholder maize area and yield mapping at national scales with Google Earth 
+     Engine (2019)](https://www.sciencedirect.com/science/article/abs/pii/S0034425719301610)
+- [Crop yield prediction using machine learning: A systematic literature
+     review (2020)](https://www.sciencedirect.com/science/article/pii/S0168169920302301)
+  - Includes challenges in using ML for crop forecast
 
 
-- Remote Sensing, including interpretation and interpolation
-  - &#x1F534; What articles?  What data sets?
-- ML for macro-level forecasting
-  - Possible article: “Coupling Machine Learning and Crop Modeling
-    Improves Crop Yield Prediction in the US Corn Belt.” Shahhosseini,
-    M., H. Guiping, I. Huber, and S. V. Archontoulis. 2021, Scientific
-    Reports 11:1606; available
-    [here](https://www.nature.com/articles/s41598-020-80820-1)
-  - &#x1F534; What articles?  What data?  What tools?  How to incorporate
-    impact of farming practices, e.g., amount of fertilizer, irrigation
+
+#### Programming illustrations
+
+- ML pipeline for Crop yield forecast based on soil and history of weather and yields
+  - Fetching yield data from [USDA NASS historical crop data](https://quickstats.nass.usd
+a.gov/)
+  - Fetching county by county latitude-longitude using 
+     [geopy.geocoders.nominatim](https://geopy.readthedocs.io/en/stable/)
+  - Fetching soil data for counties using [GAEZ Data Portal](https://gaez.fao.org/pages/data-viewer)
+  - Fetching historical weather data for counties from 
+        [NASA POWER](https://power.larc.nasa.gov/)
+  - Data transformations
+  - Applying several ML algorithms and evaluating predictive capability
+- ML pipeline that incorporates NDVI sensor data about crop growth through each year  
+  - Identification of where soybean fields were, using 
+       [USDA NASS historical cropland data](https://www.nass.usda.gov/Research_and_Science/Cropland/Release/index.php)
+  - Fetching historical NDVI values for soybean fields, using
+      [SentinelHub](https://sentinelhub-py.readthedocs.io/en/latest/index.html)
+  - Data transformations
+  - Applying the ML models as before, but using the additional NDVI data
 
 
-
-### Key Themes
-
-- Crop yield forecast, be it by simulation or ML, involves a lifecycle of 
-  steps, including model building (by hand or through ML), extensive data collection,
-  validation, tuning/calibration
-- Creation/use of global data sets for climate, soil; challenges of obtaining data on
-  agricultural management practices
-- Overcoming challenges of incomplete data, e.g., cloud cover in remote sensing.
-  &#x1F534; What are some good illustrations of this?
-- There is always uncertainty (e.g., new pests that aren't in the models or
-  the historical data), but there is still tremendous value in reasonably-well
-  validated forecasts
-
-
-
-
-
-## 6. Climate Smart Agriculture (CSA)
+## 6. The Road Forward
 
 #### Key Themes
 
@@ -387,68 +430,51 @@ XXXXXXXXXXXXXXXx
   incentives, etc.), stakeholder education, large and small landholder investments, ...
 
 
-#### Introduction to CSA  
+#### Introduction to Climate Smart Agriculture (CSA)
 
 - World Economic Forum on [why](https://www.weforum.org/agenda/2020/11/why-we-must-scale-up-climate-smart-agriculture-csa-climate-hunger-population-resilience/)
 - FAO [homepage on CSA](https://www.fao.org/climate-smart-agriculture/en/)
 - FAO {Climate Smart Agriculture Sourcebook](https://www.fao.org/climate-smart-agriculture-sourcebook/en)
-
-#### Climate Smart Agriculture
-
-- e.g., Deloitte insight paper
-  "Transforming Food Systems with Farmers: A Pathway for the EU", April 2022;
-  available [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
-- e.g., EU website "[Climate Smart Agriculture](https://ec.europa.eu/eip/agriculture/en/news/climate-smart-agriculture)"
-- &#x1F534; Something about instrumentation for smart ag, e.g., styles of
-  smart ag (e.g., drip irrigation, precision fertilization), tools for measurement,
-  associated computing technologies ??
+- Deloitte insight paper
+  [Transforming Food Systems with Farmers: A Pathway for the
+     EU (April 2022)](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
+- EU website [Climate Smart Agriculture](https://ec.europa.eu/eip/agriculture/en/news/climate-smart-agriculture)"
 
 
 #### Simultaneously optimizing productivity and carbon sequestion
 
-- "Trading carbon for food: Global comparison of carbon stocks
-  vs. crop yields on agricultural land, Paul C. West et. al.;
-  available
-  [here](https://www.pnas.org/doi/10.1073/pnas.1011078107)
-- “Relocating croplands could drastically reduce the environmental
-  impacts of global food production” by Robert M. Beyer,Fangyuan Hua ,
-  Philip A. Martin , Andrea Manica &amp; Tim Rademacher, COMMUNICATIONS
-  EARTH & ENVIRONMENT; (2022)3:49, available
-  [here](https://doi.org/10.1038/s43247-022-00360-6)
-
-#### Digitized/Precision Farming Practices
-
-- "Transforming Food Systems with Farmers: A Pathway for the EU", World 
-  Economic Forum, Deloitte, NTT Data, available
-  [here](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-transforming-food-systems-farmers.pdf)
+- [Trading carbon for food: Global comparison of carbon stocks
+    vs. crop yields on agricultural
+    land (2010)](https://www.pnas.org/doi/10.1073/pnas.1011078107)
+- [Relocating croplands could drastically reduce the environmental
+  impacts of global food production (2022)](https://doi.org/10.1038/s43247-022-00360-6)
 
 
-#### Example: Trade-offs involving Nitrogen Fertilization
+#### Cropland Nutrient Budgets
 
-- “Exploring Trade-Offs Between Profit, Yield, and the Environmental
+- FAO on [Cropland Nutrient Budgets (2022)](https://www.fao.org/newsroom/detail/new-data-to-measure-cropland-nutrient-budgets/en)
+- [Exploring Trade-Offs Between Profit, Yield, and the Environmental
   Footprint of Potential Nitrogen Fertilizer Regulations in the US
-  Midwest” by G. Mandrini et. al., Front. Plant Sci., 15 April 2022
-  Sec. Crop and Product Physiology Volume 13 - 2022; Available
-  [here](https://www.frontiersin.org/articles/10.3389/fpls.2022.852116/full)
-- “How Does Crop Rotation Influence Soil Moisture, Mineral Nitrogen,
-   and Nitrogen Use Efficiency?” by R. Yang et. al.  Front. Plant
-   Sci., 17 March 2022 Sec. Crop and Product Physiology Volume 13 -
-   2022; available
-   [here](https://www.frontiersin.org/articles/10.3389/fpls.2022.854731/full)
+  Midwest (2022)](https://www.frontiersin.org/articles/10.3389/fpls.2022.852116/full)
+- [How Does Crop Rotation Influence Soil Moisture, Mineral Nitrogen,
+   and Nitrogen Use
+   Efficiency? (2022)](https://www.frontiersin.org/articles/10.3389/fpls.2022.854731/full)
 
+#### Alternative foods and agricultural practices
 
-
-#### Key Themes
-
-- The optimization study on productivity and carbon sequestration
-  is "academic" in the sense that it
-  focuses on some issues and ignores many others, e.g., the cost of
-  re-locating agriculture, and all of the associate infrastructure, from one area to another
-  Nevertheless, these kinds of "academic" studies can help people  
-  to understand the art of the possible, and will foster more comprehensive
-  analysis of possible paths forward.
-- Studies that will help guide public policy bring together a broad array of specialties.
-
+- FAO on [Mixed Crop-Livestock Farming](https://www.fao.org/3/Y0501E/y0501e00.htm)
+- Agroforestry: growing livestock and/or crops under a managed tree canopy
+  - [Agroforestry a model for ecological sustainability (2022)](https://www.sciencedirect.com/science/article/pii/B9780128229767000028)
+  - The Guardian: [12 year agroforestry trial in
+       UK (2021)](https://www.theguardian.com/environment/2021/may/16/im-seen-as-the-fool-the-farmers-putting-trees-back-into-the-uks-fields)
+  - Historical snapshots:
+    - [An Introduction to
+        Agroforestry (1993)[https://apps.worldagroforestry.org/Units/Library/Books/PDFs/32_An_introduction_to_agroforestry.pdf?n=161]
+    - [USDA Natl. Agroforestry Newsletter
+       from 2003](https://www.fs.usda.gov/nac/assets/documents/insideagroforestry/2003summerfall.pdf)
+- Aquaponics, a closed loop involving fish and vegetables:
+  The Guardian [A new way of raising fish -- and
+  vegetables (2023)](https://www.theguardian.com/environment/2023/sep/07/oko-farms-brooklyn-aquaponics-fish)
 
 #### Note: There will not be a programming exercise with this topic area
 
