@@ -400,8 +400,8 @@ will be dropped if the course is presented in a 10-week quarter.
 #### Programming illustrations
 
 - ML pipeline for Crop yield forecast based on soil and history of weather and yields
-  - Fetching yield data from [USDA NASS historical crop data](https://quickstats.nass.usd
-a.gov/)
+  - Fetching yield data from 
+     [USDA NASS historical crop data](https://quickstats.nass.usda.gov/)
   - Fetching county by county latitude-longitude using 
      [geopy.geocoders.nominatim](https://geopy.readthedocs.io/en/stable/)
   - Fetching soil data for counties using [GAEZ Data Portal](https://gaez.fao.org/pages/data-viewer)
