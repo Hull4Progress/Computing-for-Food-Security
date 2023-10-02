@@ -467,7 +467,7 @@ will be dropped if the course is presented in a 10-week quarter.
   - The Guardian: [12 year agroforestry trial in
        UK (2021)](https://www.theguardian.com/environment/2021/may/16/im-seen-as-the-fool-the-farmers-putting-trees-back-into-the-uks-fields)
   - Historical snapshots:
-    - [An Introduction to Agroforestry (1993)[https://apps.worldagroforestry.org/Units/Library/Books/PDFs/32_An_introduction_to_agroforestry.pdf?n=161]
+    - [An Introduction to Agroforestry (1993)](https://apps.worldagroforestry.org/Units/Library/Books/PDFs/32_An_introduction_to_agroforestry.pdf?n=161)
     - [USDA Natl. Agroforestry Newsletter from 2003](https://www.fs.usda.gov/nac/assets/documents/insideagroforestry/2003summerfall.pdf)
 - Aquaponics, a closed loop involving fish and vegetables:
   The Guardian [A new way of raising fish -- and vegetables (2023)](https://www.theguardian.com/environment/2023/sep/07/oko-farms-brooklyn-aquaponics-fish)
