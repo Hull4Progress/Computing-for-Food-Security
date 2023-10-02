@@ -271,7 +271,7 @@ will be dropped if the course is presented in a 10-week quarter.
   - Digression: [Annual cycle of atmospheric CO2 variation](https://earthobservatory.nasa.gov/features/CarbonCycle 
 
 
-#### Agricultural, Climate Change and the Environment
+#### Agriculture, Climate Change and the Environment
 
 
 - Agriculture, Forestry and Other Land Uses (AFOLU): Chapter 7 (pp. 747-860) from 
