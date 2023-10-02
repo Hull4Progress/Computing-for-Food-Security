@@ -111,7 +111,8 @@ will be dropped if the course is presented in a 10-week quarter.
  
 #### Computing illustrations
 
-- Bringing FAO data (e.g., production, trade, food balances, food insecurity) into a persistent store
+- Bringing [FAO data sets](https://www.fao.org/faostat/en/#data)
+ (e.g., production, trade, food balances, food insecurity) into a persistent store
   including "normalization", using, e.g., Postgres, DBeaver, Python, Jupyter 
   - Challenges of integrating across diverse datasets
 - Visualization using Tableau Public 
