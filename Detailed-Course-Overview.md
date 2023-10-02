@@ -152,8 +152,7 @@ will be dropped if the course is presented in a 10-week quarter.
 - Introduction to APSIM, a representative simulation system.  Goal is that students will become
     beginning users of the system, and be able to create some simple crop simulation,
     e.g., for a given region and a given climate situation (e.g., historical or future)
-  -  “[Plant Modeling Framework: Software for building and running crop
-     models on the APSIM platform]((https://www.sciencedirect.com/science/article/pii/S1364815214002588)” 
+  -  “[Plant Modeling Framework: Software for building and running crop models on the APSIM platform](https://www.sciencedirect.com/science/article/pii/S1364815214002588)” 
      by H.E. Brown et. al., Environmental Modeling & Software 62, 385-398,
   - [APSIM Next Generation home page](https://apsimnextgeneration.netlify.app/)
 
@@ -268,7 +267,7 @@ will be dropped if the course is presented in a 10-week quarter.
   - ["ClimateBench v1.0: A Benchmark
     for Data-Driven Climate Projections", D. Watson-Parris et. al.,
     Journal of Advances in Modeling Earth Systems (JAMES), Sept, 2022](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954); see also the [ClimateBench github page](https://github.com/duncanwp/ClimateBench)
-  - Digression: [Annual cycle of atmospheric CO2 variation](https://earthobservatory.nasa.gov/features/CarbonCycle 
+  - Digression: [Annual cycle of atmospheric CO2 variation](https://earthobservatory.nasa.gov/features/CarbonCycle)
 
 
 #### Agriculture, Climate Change and the Environment
@@ -400,8 +399,8 @@ will be dropped if the course is presented in a 10-week quarter.
 #### Programming illustrations
 
 - ML pipeline for Crop yield forecast based on soil and history of weather and yields
-  - Fetching yield data from [USDA NASS historical crop data](https://quickstats.nass.usd
-a.gov/)
+  - Fetching yield data from 
+     [USDA NASS historical crop data](https://quickstats.nass.usda.gov/)
   - Fetching county by county latitude-longitude using 
      [geopy.geocoders.nominatim](https://geopy.readthedocs.io/en/stable/)
   - Fetching soil data for counties using [GAEZ Data Portal](https://gaez.fao.org/pages/data-viewer)
@@ -468,13 +467,10 @@ a.gov/)
   - The Guardian: [12 year agroforestry trial in
        UK (2021)](https://www.theguardian.com/environment/2021/may/16/im-seen-as-the-fool-the-farmers-putting-trees-back-into-the-uks-fields)
   - Historical snapshots:
-    - [An Introduction to
-        Agroforestry (1993)[https://apps.worldagroforestry.org/Units/Library/Books/PDFs/32_An_introduction_to_agroforestry.pdf?n=161]
-    - [USDA Natl. Agroforestry Newsletter
-       from 2003](https://www.fs.usda.gov/nac/assets/documents/insideagroforestry/2003summerfall.pdf)
+    - [An Introduction to Agroforestry (1993)](https://apps.worldagroforestry.org/Units/Library/Books/PDFs/32_An_introduction_to_agroforestry.pdf?n=161)
+    - [USDA Natl. Agroforestry Newsletter from 2003](https://www.fs.usda.gov/nac/assets/documents/insideagroforestry/2003summerfall.pdf)
 - Aquaponics, a closed loop involving fish and vegetables:
-  The Guardian [A new way of raising fish -- and
-  vegetables (2023)](https://www.theguardian.com/environment/2023/sep/07/oko-farms-brooklyn-aquaponics-fish)
+  The Guardian [A new way of raising fish -- and vegetables (2023)](https://www.theguardian.com/environment/2023/sep/07/oko-farms-brooklyn-aquaponics-fish)
 
 #### Note: There will not be a programming exercise with this topic area
 
