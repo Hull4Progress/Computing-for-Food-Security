@@ -152,8 +152,7 @@ will be dropped if the course is presented in a 10-week quarter.
 - Introduction to APSIM, a representative simulation system.  Goal is that students will become
     beginning users of the system, and be able to create some simple crop simulation,
     e.g., for a given region and a given climate situation (e.g., historical or future)
-  -  “[Plant Modeling Framework: Software for building and running crop
-     models on the APSIM platform]((https://www.sciencedirect.com/science/article/pii/S1364815214002588)” 
+  -  “[Plant Modeling Framework: Software for building and running crop models on the APSIM platform](https://www.sciencedirect.com/science/article/pii/S1364815214002588)” 
      by H.E. Brown et. al., Environmental Modeling & Software 62, 385-398,
   - [APSIM Next Generation home page](https://apsimnextgeneration.netlify.app/)
 
