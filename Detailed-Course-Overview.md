@@ -111,7 +111,8 @@ will be dropped if the course is presented in a 10-week quarter.
  
 #### Computing illustrations
 
-- Bringing FAO data (e.g., production, trade, food balances, food insecurity) into a persistent store
+- Bringing [FAO data sets](https://www.fao.org/faostat/en/#data)
+ (e.g., production, trade, food balances, food insecurity) into a persistent store
   including "normalization", using, e.g., Postgres, DBeaver, Python, Jupyter 
   - Challenges of integrating across diverse datasets
 - Visualization using Tableau Public 
@@ -346,14 +347,16 @@ will be dropped if the course is presented in a 10-week quarter.
 - Representative ML pipelines
   - [Generic](https://ml-ops.org/content/end-to-end-ml-workflow)
   - [For crop forecast](https://reader.elsevier.com/reader/sd/pii/S2772375522000168)
-- Selections from [The Elements of Statistical Learning: Data Mining, Inference, and Prediction, by Hastie, Tibshirani, Friedman, 2nd Edition, 12th printing (2017)](https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf)
-  - Overview of Supervised Learning (see chapters 1 and 2)
-  - Linear methods for regression (see chapter 3); see also 
+- Selections from "[Fundamentals of Machine Learning for Predictive Data Analytics, second edition](https://mitpress.mit.edu/9780262361101/fundamentals-of-machine-learning-for-predictive-data-analytics/)"   
+     by John D. Kellerher, Brian Mac Namee and Aoife D'Arcy (2020), MIT
+     Press.
+  - Intro to Machine Learning, in particular, Supervised Learning (Chapter 1)
+  - Data Exploration and Preparation (Sections 3.1, 3.2, 3.3, 3.6)
+  - Intro to Decision Trees and variations (Sections 4.1, 4.2, 4.3, 4.4.5)
+  - Intro to Linear methods for regression (Sections 7.1, 7.2, 7.3, 7.4.1, 7.4.3, 7.4.4); 
+     see also 
      [analyticsvidhya on gradient descent](https://www.analyticsvidhya.com/blog/2020/10/how-does-the-gradient-descent-algorithm-work-in-machine-learning/)
-  - Random Forest (see chapter 15)
-  - Boosting (see chapter 10), e.g., [XGBoost](https://xgboost.readthedocs.io/en/stable/tutorials/model.html),
-      LightGBM
-  - Neural Networks (see chapter 11); see also
+  - Intro to Neural Networks (Sections 8.1, 8.2, 8.3); see also
     - [ML for Beginners: An Introduction to Neural Networks (2019)](https://victorzhou.com/blog/intro-to-neural-networks/)
     - See also these neural network playgrounds:
         [tensorflow](https://playground.tensorflow.org/),
