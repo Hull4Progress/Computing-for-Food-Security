@@ -3,7 +3,7 @@
 
 
 The course is organized into 6 sections:
-1. Course introduction and overview (about 1.5 hours)
+1. [Course introduction and overview (about 1.5 hours)](#1-course-introduction-and-overview-about-1-or-15-hours)
 1. Global initiatives and data in support of Food Security
 1. Forecasting agricultural productivity: Micro
 1. Agriculture and Climate Change
