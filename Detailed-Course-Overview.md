@@ -340,7 +340,7 @@ will be dropped if the course is presented in a 10-week quarter.
 
 ## 5. Forecasting agricultural productivity: Macro
 
-#### Intro to applied machine learning (this material will be interleaved with material from the next subsection)
+#### Intro to applied machine learning (this material will be interleaved with material from the next subsection). 
 
 - Cross Industry Standard Process for Data Mining (CRISP-DM), e.g., 
     [from healthcare](https://www.researchgate.net/publication/228651042_Specialised_Tools_for_Automating_Data_Mining_for_Hospital_Management)
@@ -349,7 +349,8 @@ will be dropped if the course is presented in a 10-week quarter.
   - [For crop forecast](https://reader.elsevier.com/reader/sd/pii/S2772375522000168)
 - Selections from "[Fundamentals of Machine Learning for Predictive Data Analytics, second edition](https://mitpress.mit.edu/9780262361101/fundamentals-of-machine-learning-for-predictive-data-analytics/)"   
      by John D. Kellerher, Brian Mac Namee and Aoife D'Arcy (2020), MIT
-     Press.
+     Press.  (This book isn't free, but will be a great reference if you
+     want to learn more about Machine Learning techniques after this course.)
   - Intro to Machine Learning, in particular, Supervised Learning (Chapter 1)
   - Data Exploration and Preparation (Sections 3.1, 3.2, 3.3, 3.6)
   - Intro to Decision Trees and variations (Sections 4.1, 4.2, 4.3, 4.4.5)
@@ -411,6 +412,8 @@ will be dropped if the course is presented in a 10-week quarter.
         [NASA POWER](https://power.larc.nasa.gov/)
   - Data transformations
   - Applying several ML algorithms and evaluating predictive capability
+  - Evaluation with several metrics
+  - Optimizations, e.g., hyperparameter selection, feature elimination
 - ML pipeline that incorporates NDVI sensor data about crop growth through each year  
   - Identification of where soybean fields were, using 
        [USDA NASS historical cropland data](https://www.nass.usda.gov/Research_and_Science/Cropland/Release/index.php)
@@ -418,6 +421,14 @@ will be dropped if the course is presented in a 10-week quarter.
       [SentinelHub](https://sentinelhub-py.readthedocs.io/en/latest/index.html)
   - Data transformations
   - Applying the ML models as before, but using the additional NDVI data
+
+#### Student Exercise
+
+  - ML Pipelines for crop yield forecast: In this exercise students will use
+    soil and weather data, along with USDA NASS crop yield data, to create several
+    ML models for predicting crop yield.  They will evaluate the performance
+    of the models using several metrics, and explore optimization techniques
+    such as hyperparameter selection and feature elimination.
 
 
 ## 6. The Road Forward
