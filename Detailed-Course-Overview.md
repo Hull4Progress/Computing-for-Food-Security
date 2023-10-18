@@ -3,12 +3,12 @@
 
 
 The course is organized into 6 sections:
-1. Course introduction and overview (about 1.5 hours)
-1. Global initiatives and data in support of Food Security
-1. Forecasting agricultural productivity: Micro
-1. Agriculture and Climate Change
-1. Forecasting agricultural productivity: Macro
-1. Climate Smart Agriculture
+1. [Course introduction and overview (about 1.5 hours)](#1-course-introduction-and-overview-about-1-or-15-hours)
+1. [Global initiatives and data in support of Food Security](#2-global-initiatives-and-data-in-support-of-food-security)
+1. [Forecasting agricultural productivity: Micro](#3-forecasting-agricultural-productivity-micro)
+1. [Agriculture and Climate Change](#4-agriculture-and-climate-change)
+1. [Forecasting agricultural productivity: Macro](#5-forecasting-agricultural-productivity-macro)
+1. [The Road Forward: Selected Examples](#6-the-road-forward-selected-examples)
 
 The course as described here is intended for senior and/or graduate-level CS students.
 It assumes a 15-week semester, with 2.5 hours
