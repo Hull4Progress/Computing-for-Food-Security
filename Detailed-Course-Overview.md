@@ -431,16 +431,7 @@ will be dropped if the course is presented in a 10-week quarter.
     such as hyperparameter selection and feature elimination.
 
 
-## 6. The Road Forward
-
-#### Key Themes
-
-- Importance of our understanding of both agricultural productivity and possible
-  climate change pathways as the basis for pro-actively working towards
-  mitigation of the climate change impacts
-- The challenges of moving an industry, in this case agriculture, in a direction
-  that will mitigate climate change impacts, in terms of public policy (government
-  incentives, etc.), stakeholder education, large and small landholder investments, ...
+## 6. The Road Forward: Selected Examples
 
 
 #### Introduction to Climate Smart Agriculture (CSA)
